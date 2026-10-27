@@ -1,0 +1,28 @@
+MonsterTactics U6.9.6 - Supply Augments, based on U6.9.5
+
+INSTALLATION (PATCH):
+1. Back up your Unity project. Exit Play Mode.
+2. Merge this ZIP's MonsterTactics folder into Assets/MonsterTactics.
+3. Let Unity recompile.
+4. MonsterTactics > Augments > U6.9.6 Install 3 Supply Drop Augments.
+5. Review the created ScriptableObjects in Assets/MonsterTactics/Resources/Augments.
+6. Enable the augments you want (enabledInPool), and ensure augment catalog's masterEnabled is on.
+7. MonsterTactics > Tools > U6.9.6 Verify Supply Drop Augments.
+8. In Play Mode use MonsterTactics > Tools > U6.9.6 Drop Rookie/Ace/Champion Supply Loot to test.
+
+REWARDS (on augment selection, ONCE):
+Rookie  - Apricorn Supply Drop: 2 Crafting Part Capsules; 2 component choices total. Weight 85.
+Ace     - Creature Depot Delivery: 1 Gear + 1 Crafting Part Capsule; 1 completed item + 1 component. Weight 70.
+Champion- Champion's Supply Crate: 2 Gear + 1 Crafting Part Capsule; 2 completed items + 1 component. Weight 55.
+
+All three share exclusiveGroup 'supply-capsules': only one may be picked in a match.
+Each capsule lands physically on the arena like PvE loot. The Trainer picks it up and
+it occupies a shared Monster bench hex. If all nine reserve slots are full, the capsule
+remains on the arena and the existing warning appears. Drag its bench sprite to the
+shop/sell area to OPEN (not sell) four random choices. The selected reward goes to
+the item bench, and the Monster bench slot is released.
+
+No new inventory, no new placeholder sprites, and no direct reward bypass.
+Existing PvE capsule loot and the U6.9.5 drag-to-open workflow remain unchanged.
+Patch doesn't overwrite your catalog or any manually edited augment assets.
+Run Unity Editor tests and gameplay checks; Unity was not available here.

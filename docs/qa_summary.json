@@ -1,0 +1,11 @@
+{
+  "png_assets": 4371,
+  "collada_training_models": 4,
+  "csharp_source_files": 179,
+  "guid_files": 5029,
+  "duplicate_guids": 0,
+  "source_scene": "Assets/Scenes/SampleScene.unity",
+  "remaining_brand_hits": [],
+  "static_errors": [],
+  "unity_import_or_runtime_test": "NOT RUN - Unity Editor not available"
+}

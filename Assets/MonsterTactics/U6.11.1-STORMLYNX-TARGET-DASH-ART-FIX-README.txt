@@ -1,0 +1,41 @@
+MonsterTactics U6.11.1 — STORMLYNX TARGETING, VISIBLE DASH, ART FIX
+===========================================================
+Install OVER U6.11 Stormlynx Only. Exit Unity Play Mode before extracting.
+
+Changes only Stormlynx:
+1. On round start, picks CLOSEST enemy (not Assassin backline target).
+   Keeps the same live target; brief blocked paths do not trigger bouncing
+   between enemies. After 1.1 sec blocked, it may switch to a reachable one.
+2. Plasma Fists now performs a visible 0.36 sec forward-and-return dash/
+   lunge TOWARD its current target on every cast, even when already adjacent.
+   Stormlynx remains on the same occupied hex at the end of the cast. No
+   permanent repositioning or teleport; no change to other Assassin dashes.
+3. New Unity menu imports Stormlynx's genuine MonsterAPI Showdown GIF through
+   the SAME 96x96 normalized frame pipeline as other U6.10 Monster.
+   The previous installer used only a static 807.png and did NOT populate
+   genuine animation frames. There may be no genuine GIF at source: in that
+   case a static sprite + breathing fallback remains; this installer will
+   say so instead of claiming the animations installed.
+
+After extracting patch:
+  1. Unity menu: MonsterTactics > U6.11.1 Stormlynx Fix >
+     1. Download Matching Stormlynx Animation
+  2. After completion: MonsterTactics > U6.11.1 Stormlynx Fix >
+     3. Verify Stormlynx Fix
+  3. Restart Play Mode. Place Stormlynx near multiple enemies and watch:
+     - Starting pursuit targets the closest enemy.
+     - Cast only once mana fills (70 Mana); EVERY cast shows a lunging dash.
+     - Chain lightning targets up to two other enemies within 2 hexes
+       of the initial hit (existing U6.11 behavior).
+     - With only one enemy there is only primary Physical Damage.
+
+Windows: the GIF import uses the EXISTING PowerShell + System.Drawing
+converter. Linux/macOS: place your extracted normalized PNG frames at
+Assets/MonsterTactics/Art/MonsterU610Animated/stormlynx/frame_000.png etc.
+then use menu 2. Rebuild Animation Catalog.
+
+Play Mode verification is required on your computer. ZIP/source-level
+checks are not a substitute for a Unity 6.6 compile and visual test.
+
+Does not change Stormlynx stats, chain rules, other units, abilities,
+shop odds, or any U6.11 proposal Monster. No new traits.

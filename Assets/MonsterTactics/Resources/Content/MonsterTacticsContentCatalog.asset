@@ -1,0 +1,2148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd0b75e8f00f5024ab0f71701af658d5, type: 3}
+  m_Name: MonsterTacticsContentCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::MonsterTactics.MonsterTacticsContentCatalog
+  schemaVersion: 1
+  readOnlyLegacyRuntime: 0
+  enableLiveTraits: 1
+  enableLiveAbilities: 0
+  monster:
+  - id: family_pebblin
+    enabled: 1
+    displayName: Pebblin
+    shopCost: 1
+    combatRole: Tank
+    baseHp: 750
+    forms:
+    - name: Pebblin
+      types: Rock / Ground
+      bestiaryNumber: 74
+      sprite: {fileID: 21300000, guid: 708ecbd268b05a947ba535723b54c7a2, type: 3}
+    - name: Craggon
+      types: Rock / Ground
+      bestiaryNumber: 75
+      sprite: {fileID: 21300000, guid: b8a5cb89599940447ad9880d4d5b26c7, type: 3}
+    - name: Granitus
+      types: Rock / Ground
+      bestiaryNumber: 76
+      sprite: {fileID: 21300000, guid: d586fac28dfb1da4390dc17ec88e5ef8, type: 3}
+    origins: []
+    abilityId: ability_pebblin_rock_guard
+    stats:
+      attack: 35
+      attackSpeed: 0.5
+      abilityPower: 100
+      omnivamp: 0
+      criticalChance: 0.1
+      criticalMultiplier: 1.5
+      armor: 55
+      magicResist: 40
+      attackRange: 1
+      manaCost: 70
+      moveInterval: 0.62
+    designerNotes: 
+  - id: family_flarbit
+    enabled: 1
+    displayName: Flarbit
+    shopCost: 1
+    combatRole: Ranged
+    baseHp: 430
+    forms:
+    - name: Flarbit
+      types: Fire
+      bestiaryNumber: 813
+      sprite: {fileID: 21300000, guid: b3af858841bfe0744b8908cb47c7e0dd, type: 3}
+    - name: Scorbolt
+      types: Fire
+      bestiaryNumber: 814
+      sprite: {fileID: 21300000, guid: ea9fd2e271c4e9242a64165cdd858998, type: 3}
+    - name: Flarevolt
+      types: Fire
+      bestiaryNumber: 815
+      sprite: {fileID: 21300000, guid: dc9c50a1f962a674fa9143f12b85af13, type: 3}
+    origins:
+    - First Partners
+    - Playful
+    abilityId: ability_flarbit_pyro_ball
+    stats:
+      attack: 55
+      attackSpeed: 0.9
+      abilityPower: 100
+      omnivamp: 0
+      criticalChance: 0.1
+      criticalMultiplier: 1.5
+      armor: 22
+      magicResist: 25
+      attackRange: 3
+      manaCost: 70
+      moveInterval: 0.46
+    designerNotes: 
+  - id: family_mysprit
+    enabled: 1
+    displayName: Mysprit
+    shopCost: 1
+    combatRole: Mage
+    baseHp: 370
+    forms:
+    - name: Mysprit
+      types: Psychic
+      bestiaryNumber: 63
+      sprite: {fileID: 21300000, guid: 0308eb37b51a37249bbb0fd45dfdd35d, type: 3}
+    - name: Mysteryn
+      types: Psychic
+      bestiaryNumber: 64
+      sprite: {fileID: 21300000, guid: 98b7657fb1898bf419c88f8ae56780cc, type: 3}
+    - name: Mystarion
+      types: Psychic
+      bestiaryNumber: 65
+      sprite: {fileID: 21300000, guid: f2ed6d68564a4944e91eeb4382fa689b, type: 3}
+    origins: []
+    abilityId: ability_mysprit_psybeam
+    stats:
+      attack: 68
+      attackSpeed: 0.7
+      abilityPower: 100
+      omnivamp: 0
+      criticalChance: 0.1
+      criticalMultiplier: 1.5
+      armor: 18
+      magicResist: 35
+      attackRange: 3
+      manaCost: 75
+      moveInterval: 0.54
+    designerNotes: 
+  - id: family_mosslet
+    enabled: 1
+    displayName: Mosslet
+    shopCost: 2
+    combatRole: Ranged
+    baseHp: 420
+    forms:
+    - name: Mosslet
+      types: Grass / Flying
+      bestiaryNumber: 722
+      sprite: {fileID: 21300000, guid: d053604e39ff3b2419127a036a70d533, type: 3}
+    - name: Leafwing
+      types: Grass / Flying
+      bestiaryNumber: 723
+      sprite: {fileID: 21300000, guid: 4fa795f5510a49c40961362917fb4fbd, type: 3}
+    - name: Thornveil
+      types: Grass / Ghost
+      bestiaryNumber: 724
+      sprite: {fileID: 21300000, guid: 1787978d3651e0647bdb88e2b6dddfd7, type: 3}
+    origins:
+    - First Partners
+    - Swifty
+    abilityId: ability_mosslet_leaf_arrow
+    stats:
+      attack: 70
+      attackSpeed: 0.85
+      abilityPower: 100
+      omnivamp: 0
+      criticalChance: 0.1
+      criticalMultiplier: 1.5
+      armor: 25
+      magicResist: 30
+      attackRange: 4
+      manaCost: 60
+      moveInterval: 0.52
+    designerNotes: 
+  - id: family_emberlet
+    enabled: 1
+    displayName: Emberlet
+    shopCost: 2
+    combatRole: Mage
+    baseHp: 550
+    forms:
+    - name: Emberlet
+      types: Fire
+      bestiaryNumber: 4
+      sprite: {fileID: 21300000, guid: 2d94e44121f42cc48b1cecfc442f6c55, type: 3}
+    - name: Cindrake
+      types: Fire
+      bestiaryNumber: 5
+      sprite: {fileID: 21300000, guid: 06a4999bb83a6c642a3f1763882fc4a4, type: 3}
+    - name: Inferdrake
+      types: Fire / Flying
+      bestiaryNumber: 6
+      sprite: {fileID: 21300000, guid: cfb340b84b2e44d4ab814754cc2aec9f, type: 3}
+    origins:
+    - First Partners
+    abilityId: ability_emberlet_flamethrower
+    stats:
+      attack: 48
+      attackSpeed: 0.72
+      abilityPower: 100
+      omnivamp: 0
+      criticalChance: 0.1
+      criticalMultiplier: 1.5
+      armor: 20
+      magicResist: 25
+      attackRange: 3
+      manaCost: 75
+      moveInterval: 0.55
+    designerNotes: 
+  - id: family_budhorn
+    enabled: 1
+    displayName: Budhorn
+    shopCost: 2
+    combatRole: Tank
+    baseHp: 750
+    forms:
+    - name: Budhorn
+      types: Grass / Poison
+      bestiaryNumber: 1
+      sprite: {fileID: 21300000, guid: 146bb7cb9a6463648b3b2df20a33e99d, type: 3}
+    - name: Briarthorn
+      types: Grass / Poison
+      bestiaryNumber: 2
+      sprite: {fileID: 21300000, guid: af3cfd5da0f230046b7296edc21c1379, type: 3}
+    - name: Verdantor
+      types: Grass / Poison
+      bestiaryNumber: 3
+      sprite: {fileID: 21300000, guid: 2cd1cbd6ff889744693e5d52ac654366, type: 3}
+    origins:
+    - First Partners
+    - Bruiser
+    abilityId: ability_budhorn_leech_seed
+    stats:
+      attack: 43
+      attackSpeed: 0.7
+      abilityPower: 100
+      omnivamp: 0
+      criticalChance: 0.1
+      criticalMultiplier: 1.5
+      armor: 45
+      magicResist: 40
+      attackRange: 1
+      manaCost: 70
+      moveInterval: 0.58
+    designerNotes: 
+  - id: family_ripplet
+    enabled: 1
+    displayName: Ripplet
+    shopCost: 3
+    combatRole: Fighter
+    baseHp: 650
+    forms:
+    - name: Ripplet
+      types: Water
+      bestiaryNumber: 393
+      sprite: {fileID: 21300000, guid: 45c810f1ae9ea864db4f5c45d3bb4b51, type: 3}
+    - name: Rillcrest
+      types: Water
+      bestiaryNumber: 394
+      sprite: {fileID: 21300000, guid: 5f4df65381965c64b80ce0017ffdf0a3, type: 3}
+    - name: Tideroyal
+      types: Water / Steel
+      bestiaryNumber: 395
+      sprite: {fileID: 21300000, guid: 231cfc71a5bf3c44cba6803ee0080170, type: 3}
+    origins:
+    - First Partners
+    abilityId: ability_ripplet_aqua_jet
+    stats:
+      attack: 55
+      attackSpeed: 0.8
+      abilityPower: 100
+      omnivamp: 0
+      criticalChance: 0.1
+      criticalMultiplier: 1.5
+      armor: 35
+      magicResist: 35
+      attackRange: 1
+      manaCost: 65
+      moveInterval: 0.48
+    designerNotes: 
+  - id: family_tusklet
+    enabled: 1
+    displayName: Tusklet
+    shopCost: 3
+    combatRole: Fighter
+    baseHp: 680
+    forms:
+    - name: Tusklet
+      types: Dragon
+      bestiaryNumber: 610
+      sprite: {fileID: 21300000, guid: 9e1c511f712cf7a4f9785e951be87b97, type: 3}
+    - name: Ironfang
+      types: Dragon
+      bestiaryNumber: 611
+      sprite: {fileID: 21300000, guid: 3864d6dc9b9ae2b48a9cb90427fd6a01, type: 3}
+    - name: Stormtusk
+      types: Dragon
+      bestiaryNumber: 612
+      sprite: {fileID: 21300000, guid: 79ea1be279617414b84ba5aac6db2788, type: 3}
+    origins: []
+    abilityId: ability_tusklet_dragon_claw
+    stats:
+      attack: 68
+      attackSpeed: 0.75
+      abilityPower: 100
+      omnivamp: 0
+      criticalChance: 0.1
+      criticalMultiplier: 1.5
+      armor: 35
+      magicResist: 35
+      attackRange: 1
+      manaCost: 70
+      moveInterval: 0.5
+    designerNotes: 
+  - id: family_dunebit
+    enabled: 1
+    displayName: Dunebit
+    shopCost: 4
+    combatRole: Assassin
+    baseHp: 550
+    forms:
+    - name: Dunebit
+      types: Dragon / Ground
+      bestiaryNumber: 443
+      sprite: {fileID: 21300000, guid: 611bfa13fdd06a745a7ae59ff0cbf91f, type: 3}
+    - name: Shardfang
+      types: Dragon / Ground
+      bestiaryNumber: 444
+      sprite: {fileID: 21300000, guid: 2bfd4619a0aeb3d43bbad6449ec883f3, type: 3}
+    - name: Dunebreaker
+      types: Dragon / Ground
+      bestiaryNumber: 445
+      sprite: {fileID: 21300000, guid: ce11be95decac10419b9a1671e900df5, type: 3}
+    origins:
+    - Playful
+    abilityId: ability_dunebit_dragon_rush
+    stats:
+      attack: 85
+      attackSpeed: 1
+      abilityPower: 100
+      omnivamp: 0.1
+      criticalChance: 0.1
+      criticalMultiplier: 1.5
+      armor: 30
+      magicResist: 30
+      attackRange: 1
+      manaCost: 75
+      moveInterval: 0.43
+    designerNotes: 
+  - id: family_mistrip
+    enabled: 1
+    displayName: Mistrip
+    shopCost: 4
+    combatRole: Assassin
+    baseHp: 500
+    forms:
+    - name: Mistrip
+      types: Water
+      bestiaryNumber: 656
+      sprite: {fileID: 21300000, guid: 34a1f25cc761ee04f91c069f94fe688e, type: 3}
+    - name: Mistveil
+      types: Water
+      bestiaryNumber: 657
+      sprite: {fileID: 21300000, guid: f439d6f44bffcb847813bffeb090116a, type: 3}
+    - name: Nightstream
+      types: Water / Dark
+      bestiaryNumber: 658
+      sprite: {fileID: 21300000, guid: 1eb7ac6f6b212f4449fd55331b538306, type: 3}
+    origins:
+    - First Partners
+    abilityId: ability_mistrip_water_shuriken
+    stats:
+      attack: 60
+      attackSpeed: 0.95
+      abilityPower: 100
+      omnivamp: 0
+      criticalChance: 0.1
+      criticalMultiplier: 1.5
+      armor: 23
+      magicResist: 30
+      attackRange: 2
+      manaCost: 65
+      moveInterval: 0.4
+    designerNotes: 
+  - id: family_voltrix
+    enabled: 1
+    displayName: Voltrix
+    shopCost: 5
+    combatRole: Mage
+    baseHp: 900
+    forms:
+    - name: Voltrix
+      types: Electric
+      bestiaryNumber: 243
+      sprite: {fileID: 21300000, guid: 4535b2c679cd0254897884e7b8b45efd, type: 3}
+    - name: Voltrix
+      types: Electric
+      bestiaryNumber: 243
+      sprite: {fileID: 21300000, guid: 4535b2c679cd0254897884e7b8b45efd, type: 3}
+    - name: Voltrix
+      types: Electric
+      bestiaryNumber: 243
+      sprite: {fileID: 21300000, guid: 4535b2c679cd0254897884e7b8b45efd, type: 3}
+    origins:
+    - Legendary Beasts
+    abilityId: ability_voltrix_thunderbolt
+    stats:
+      attack: 70
+      attackSpeed: 0.85
+      abilityPower: 100
+      omnivamp: 0
+      criticalChance: 0.1
+      criticalMultiplier: 1.5
+      armor: 35
+      magicResist: 45
+      attackRange: 4
+      manaCost: 80
+      moveInterval: 0.47
+    designerNotes: 
+  - id: family_pyrothane
+    enabled: 1
+    displayName: Pyrothane
+    shopCost: 5
+    combatRole: Fighter
+    baseHp: 1050
+    forms:
+    - name: Pyrothane
+      types: Fire
+      bestiaryNumber: 244
+      sprite: {fileID: 21300000, guid: 203cc927edda4b240a67fd1f1e9e44e6, type: 3}
+    - name: Pyrothane
+      types: Fire
+      bestiaryNumber: 244
+      sprite: {fileID: 21300000, guid: 203cc927edda4b240a67fd1f1e9e44e6, type: 3}
+    - name: Pyrothane
+      types: Fire
+      bestiaryNumber: 244
+      sprite: {fileID: 21300000, guid: 203cc927edda4b240a67fd1f1e9e44e6, type: 3}
+    origins:
+    - Legendary Beasts
+    abilityId: ability_pyrothane_sacred_fire
+    stats:
+      attack: 92
+      attackSpeed: 0.78
+      abilityPower: 100
+      omnivamp: 0
+      criticalChance: 0.1
+      criticalMultiplier: 1.5
+      armor: 55
+      magicResist: 42
+      attackRange: 1
+      manaCost: 75
+      moveInterval: 0.43
+    designerNotes: 
+  - id: family_aqualith
+    enabled: 1
+    displayName: Aqualith
+    shopCost: 5
+    combatRole: Tank
+    baseHp: 1200
+    forms:
+    - name: Aqualith
+      types: Water
+      bestiaryNumber: 245
+      sprite: {fileID: 21300000, guid: 9428a4defc8db0a46b4f8cbfd9becf66, type: 3}
+    - name: Aqualith
+      types: Water
+      bestiaryNumber: 245
+      sprite: {fileID: 21300000, guid: 9428a4defc8db0a46b4f8cbfd9becf66, type: 3}
+    - name: Aqualith
+      types: Water
+      bestiaryNumber: 245
+      sprite: {fileID: 21300000, guid: 9428a4defc8db0a46b4f8cbfd9becf66, type: 3}
+    origins:
+    - Legendary Beasts
+    abilityId: ability_aqualith_aurora_beam
+    stats:
+      attack: 65
+      attackSpeed: 0.68
+      abilityPower: 100
+      omnivamp: 0
+      criticalChance: 0.1
+      criticalMultiplier: 1.5
+      armor: 70
+      magicResist: 65
+      attackRange: 1
+      manaCost: 80
+      moveInterval: 0.53
+    designerNotes: 
+  - id: family_yaroris
+    enabled: 1
+    displayName: Yaroris
+    shopCost: 2
+    combatRole: Ranged
+    baseHp: 480
+    forms:
+    - name: Yaroris
+      types: Electric
+      bestiaryNumber: 172
+      sprite: {fileID: 21300000, guid: 6b1de034ea62ac84d8436404940771bb, type: 3}
+    - name: Astravar
+      types: Electric
+      bestiaryNumber: 25
+      sprite: {fileID: 21300000, guid: b6bfecd41f678e14380d3e9b00e9d108, type: 3}
+    - name: Glimmon
+      types: Electric
+      bestiaryNumber: 26
+      sprite: {fileID: 21300000, guid: d6214aa4df182b341a718ea0fa87fabb, type: 3}
+    origins:
+    - Swifty
+    abilityId: u610_yaroris
+    stats:
+      attack: 55
+      attackSpeed: 0.83
+      abilityPower: 100
+      omnivamp: 0
+      criticalChance: 0.1
+      criticalMultiplier: 1.5
+      armor: 25
+      magicResist: 28
+      attackRange: 4
+      manaCost: 9999
+      moveInterval: 0.52
+    designerNotes: U6.10 playable family. Battle ability is implemented in MonsterTacticsU610Abilities.
+  - id: family_quillobor
+    enabled: 1
+    displayName: Quillobor
+    shopCost: 2
+    combatRole: Tank
+    baseHp: 760
+    forms:
+    - name: Quillobor
+      types: Ice / Ground
+      bestiaryNumber: 220
+      sprite: {fileID: 21300000, guid: 280874259e2931b46a851ffb93c8f2b2, type: 3}
+    - name: Bellokel
+      types: Ice / Ground
+      bestiaryNumber: 221
+      sprite: {fileID: 21300000, guid: 7df8080dd5a016447aed7865e8bffdd9, type: 3}
+    - name: Umbramora
+      types: Ice / Ground
+      bestiaryNumber: 473
+      sprite: {fileID: 21300000, guid: bb8903359a0dfe94199c6849c6dee2b7, type: 3}
+    origins:
+    - Bruiser
+    abilityId: u610_quillobor
+    stats:
+      attack: 44
+      attackSpeed: 0.55
+      abilityPower: 100
+      omnivamp: 0
+      criticalChance: 0.1
+      criticalMultiplier: 1.5
+      armor: 48
+      magicResist: 35
+      attackRange: 1
+      manaCost: 75
+      moveInterval: 0.52
+    designerNotes: U6.10 playable family. Battle ability is implemented in MonsterTacticsU610Abilities.
+  - id: family_quillorixa
+    enabled: 1
+    displayName: Quillorixa
+    shopCost: 3
+    combatRole: Fighter
+    baseHp: 740
+    forms:
+    - name: Quillorixa
+      types: Fighting
+      bestiaryNumber: 66
+      sprite: {fileID: 21300000, guid: 65f04f71e603fd747885c1b9496ad7fd, type: 3}
+    - name: Pentamon
+      types: Fighting
+      bestiaryNumber: 67
+      sprite: {fileID: 21300000, guid: 56dcade16f8a77241a7a9b7d1c93e809, type: 3}
+    - name: Orbirix
+      types: Fighting
+      bestiaryNumber: 68
+      sprite: {fileID: 21300000, guid: 8ef1241faefd88f4289bc92b3e12c73f, type: 3}
+    origins:
+    - Grit
+    abilityId: u610_quillorixa
+    stats:
+      attack: 69
+      attackSpeed: 0.68
+      abilityPower: 100
+      omnivamp: 0
+      criticalChance: 0.1
+      criticalMultiplier: 1.5
+      armor: 42
+      magicResist: 36
+      attackRange: 1
+      manaCost: 75
+      moveInterval: 0.52
+    designerNotes: U6.10 playable family. Battle ability is implemented in MonsterTacticsU610Abilities.
+  - id: family_astraset
+    enabled: 1
+    displayName: Astraset
+    shopCost: 4
+    combatRole: Fighter
+    baseHp: 790
+    forms:
+    - name: Astraset
+      types: Electric
+      bestiaryNumber: 239
+      sprite: {fileID: 21300000, guid: 850cbe761f8b3c64fac7314337702101, type: 3}
+    - name: Yarodrel
+      types: Electric
+      bestiaryNumber: 125
+      sprite: {fileID: 21300000, guid: 62015f4e834ce5b4a8184e927921a4da, type: 3}
+    - name: Zenodon
+      types: Electric
+      bestiaryNumber: 466
+      sprite: {fileID: 21300000, guid: 7da63b450169b8748ab3202f60d54552, type: 3}
+    origins:
+    - Grit
+    - Overdrive
+    abilityId: u610_astraset
+    stats:
+      attack: 78
+      attackSpeed: 0.74
+      abilityPower: 100
+      omnivamp: 0
+      criticalChance: 0.1
+      criticalMultiplier: 1.5
+      armor: 38
+      magicResist: 36
+      attackRange: 1
+      manaCost: 80
+      moveInterval: 0.52
+    designerNotes: U6.10 playable family. Battle ability is implemented in MonsterTacticsU610Abilities.
+  - id: family_rovavian
+    enabled: 1
+    displayName: Rovavian
+    shopCost: 4
+    combatRole: Mage
+    baseHp: 580
+    forms:
+    - name: Rovavian
+      types: Fire
+      bestiaryNumber: 240
+      sprite: {fileID: 21300000, guid: b8a0fb700aa437a4bbc366cb080bfeb6, type: 3}
+    - name: Sylvociel
+      types: Fire
+      bestiaryNumber: 126
+      sprite: {fileID: 21300000, guid: 2daa0855e4a24394c904d8848234e839, type: 3}
+    - name: Tarodrin
+      types: Fire
+      bestiaryNumber: 467
+      sprite: {fileID: 21300000, guid: dc6cbf71eaf729146b14e6deba659422, type: 3}
+    origins:
+    - Overdrive
+    abilityId: u610_rovavian
+    stats:
+      attack: 64
+      attackSpeed: 0.7
+      abilityPower: 100
+      omnivamp: 0
+      criticalChance: 0.1
+      criticalMultiplier: 1.5
+      armor: 25
+      magicResist: 35
+      attackRange: 3
+      manaCost: 80
+      moveInterval: 0.52
+    designerNotes: U6.10 playable family. Battle ability is implemented in MonsterTacticsU610Abilities.
+  - id: family_jaspvar
+    enabled: 1
+    displayName: Jaspvar
+    shopCost: 4
+    combatRole: Tank
+    baseHp: 1020
+    forms:
+    - name: Jaspvar
+      types: Rock / Ground
+      bestiaryNumber: 246
+      sprite: {fileID: 21300000, guid: eb1e077e00f93bf4a817447c0f8700d4, type: 3}
+    - name: Evotar
+      types: Rock / Ground
+      bestiaryNumber: 247
+      sprite: {fileID: 21300000, guid: 0cd6b64d58faac84ab0291c4db634fd3, type: 3}
+    - name: Wiloset
+      types: Rock / Dark
+      bestiaryNumber: 248
+      sprite: {fileID: 21300000, guid: 257ab573832f641438edd22a2eeeec9c, type: 3}
+    origins:
+    - Grit
+    abilityId: u610_jaspvar
+    stats:
+      attack: 70
+      attackSpeed: 0.6
+      abilityPower: 100
+      omnivamp: 0
+      criticalChance: 0.1
+      criticalMultiplier: 1.5
+      armor: 62
+      magicResist: 48
+      attackRange: 1
+      manaCost: 85
+      moveInterval: 0.52
+    designerNotes: U6.10 playable family. Battle ability is implemented in MonsterTacticsU610Abilities.
+  - id: family_evodrel
+    enabled: 1
+    displayName: Evodrel
+    shopCost: 3
+    combatRole: Tank
+    baseHp: 890
+    forms:
+    - name: Evodrel
+      types: Steel / Rock
+      bestiaryNumber: 304
+      sprite: {fileID: 21300000, guid: 4394c22adb37b7144bf117246ae3af08, type: 3}
+    - name: Ionathorn
+      types: Steel / Rock
+      bestiaryNumber: 305
+      sprite: {fileID: 21300000, guid: 37b7e87a488667241aba3dd70c807235, type: 3}
+    - name: Caroris
+      types: Steel / Rock
+      bestiaryNumber: 306
+      sprite: {fileID: 21300000, guid: 4d57566f2e14e034db2845e663041c88, type: 3}
+    origins:
+    - Iron Fortress
+    abilityId: u610_evodrel
+    stats:
+      attack: 48
+      attackSpeed: 0.57
+      abilityPower: 100
+      omnivamp: 0
+      criticalChance: 0.1
+      criticalMultiplier: 1.5
+      armor: 65
+      magicResist: 52
+      attackRange: 1
+      manaCost: 75
+      moveInterval: 0.52
+    designerNotes: U6.10 playable family. Battle ability is implemented in MonsterTacticsU610Abilities.
+  - id: family_sylvodon
+    enabled: 1
+    displayName: Sylvodon
+    shopCost: 1
+    combatRole: Fighter
+    baseHp: 650
+    forms:
+    - name: Sylvodon
+      types: Fighting
+      bestiaryNumber: 532
+      sprite: {fileID: 21300000, guid: 78ade27127eee9142b6b2b49dfe2af78, type: 3}
+    - name: Umbraset
+      types: Fighting
+      bestiaryNumber: 533
+      sprite: {fileID: 21300000, guid: 4be6fb9724a74824da4a3b66b13ce124, type: 3}
+    - name: Neromon
+      types: Fighting
+      bestiaryNumber: 534
+      sprite: {fileID: 21300000, guid: b056defe0caa652448f3484d12b8a81e, type: 3}
+    origins:
+    - Grit
+    abilityId: u610_sylvodon
+    stats:
+      attack: 51
+      attackSpeed: 0.68
+      abilityPower: 100
+      omnivamp: 0
+      criticalChance: 0.1
+      criticalMultiplier: 1.5
+      armor: 34
+      magicResist: 28
+      attackRange: 1
+      manaCost: 65
+      moveInterval: 0.52
+    designerNotes: U6.10 playable family. Battle ability is implemented in MonsterTacticsU610Abilities.
+  - id: family_umbrelisk
+    enabled: 1
+    displayName: Umbrelisk
+    shopCost: 5
+    combatRole: Assassin
+    baseHp: 920
+    forms:
+    - name: Umbrelisk
+      types: Ghost / Fighting
+      bestiaryNumber: 802
+      sprite: {fileID: 21300000, guid: ba44c92e79149d9438474b73194f974d, type: 3}
+    - name: Umbrelisk
+      types: Ghost / Fighting
+      bestiaryNumber: 802
+      sprite: {fileID: 21300000, guid: ba44c92e79149d9438474b73194f974d, type: 3}
+    - name: Umbrelisk
+      types: Ghost / Fighting
+      bestiaryNumber: 802
+      sprite: {fileID: 21300000, guid: ba44c92e79149d9438474b73194f974d, type: 3}
+    origins:
+    - Shadow Thief
+    abilityId: u610_umbrelisk
+    stats:
+      attack: 105
+      attackSpeed: 1.05
+      abilityPower: 100
+      omnivamp: 0
+      criticalChance: 0.1
+      criticalMultiplier: 1.5
+      armor: 38
+      magicResist: 40
+      attackRange: 1
+      manaCost: 80
+      moveInterval: 0.52
+    designerNotes: U6.10 playable family. Battle ability is implemented in MonsterTacticsU610Abilities.
+  - id: family_astramora
+    enabled: 1
+    displayName: Astramora
+    shopCost: 5
+    combatRole: Tank
+    baseHp: 1320
+    forms:
+    - name: Astramora
+      types: Fire / Steel
+      bestiaryNumber: 485
+      sprite: {fileID: 21300000, guid: d68dc6e0108740340b3dcd4c234fcdcd, type: 3}
+    - name: Astramora
+      types: Fire / Steel
+      bestiaryNumber: 485
+      sprite: {fileID: 21300000, guid: d68dc6e0108740340b3dcd4c234fcdcd, type: 3}
+    - name: Astramora
+      types: Fire / Steel
+      bestiaryNumber: 485
+      sprite: {fileID: 21300000, guid: d68dc6e0108740340b3dcd4c234fcdcd, type: 3}
+    origins:
+    - Magma Core
+    abilityId: u610_astramora
+    stats:
+      attack: 72
+      attackSpeed: 0.65
+      abilityPower: 100
+      omnivamp: 0
+      criticalChance: 0.1
+      criticalMultiplier: 1.5
+      armor: 72
+      magicResist: 67
+      attackRange: 1
+      manaCost: 90
+      moveInterval: 0.52
+    designerNotes: U6.10 playable family. Battle ability is implemented in MonsterTacticsU610Abilities.
+  - id: family_lumomora
+    enabled: 1
+    displayName: Lumomora
+    shopCost: 1
+    combatRole: Fighter
+    baseHp: 610
+    forms:
+    - name: Lumomora
+      types: Ground / Dark
+      bestiaryNumber: 551
+      sprite: {fileID: 21300000, guid: 0be6e259ff4f05e42a9593093c24082e, type: 3}
+    - name: Glimdrel
+      types: Ground / Dark
+      bestiaryNumber: 552
+      sprite: {fileID: 21300000, guid: 5ab538a3ff1ecd741803137d749951de, type: 3}
+    - name: Heliodon
+      types: Ground / Dark
+      bestiaryNumber: 553
+      sprite: {fileID: 21300000, guid: cc33c76c900b6f94d8b3f441ba0622db, type: 3}
+    origins:
+    - Bruiser
+    abilityId: u610_lumomora
+    stats:
+      attack: 57
+      attackSpeed: 0.73
+      abilityPower: 100
+      omnivamp: 0
+      criticalChance: 0.1
+      criticalMultiplier: 1.5
+      armor: 30
+      magicResist: 28
+      attackRange: 1
+      manaCost: 70
+      moveInterval: 0.52
+    designerNotes: U6.10 playable family. Battle ability is implemented in MonsterTacticsU610Abilities.
+  - id: family_vexokel
+    enabled: 1
+    displayName: Vexokel
+    shopCost: 3
+    combatRole: Tank
+    baseHp: 880
+    forms:
+    - name: Vexokel
+      types: Grass
+      bestiaryNumber: 387
+      sprite: {fileID: 21300000, guid: 16b94cf7aaec8ac4896b8a06ae5f5c6b, type: 3}
+    - name: Sylvovar
+      types: Grass
+      bestiaryNumber: 388
+      sprite: {fileID: 21300000, guid: 7493319f9fa24c84781e0283b22580cf, type: 3}
+    - name: Tarothorn
+      types: Grass / Ground
+      bestiaryNumber: 389
+      sprite: {fileID: 21300000, guid: ba22b0057fe62144c8e03f3b3a249af9, type: 3}
+    origins:
+    - Bruiser
+    - First Partners
+    abilityId: u610_vexokel
+    stats:
+      attack: 48
+      attackSpeed: 0.6
+      abilityPower: 100
+      omnivamp: 0
+      criticalChance: 0.1
+      criticalMultiplier: 1.5
+      armor: 55
+      magicResist: 46
+      attackRange: 1
+      manaCost: 80
+      moveInterval: 0.52
+    designerNotes: U6.10 playable family. Battle ability is implemented in MonsterTacticsU610Abilities.
+  - id: family_kaironet
+    enabled: 1
+    displayName: Kaironet
+    shopCost: 3
+    combatRole: Mage
+    baseHp: 540
+    forms:
+    - name: Kaironet
+      types: Ghost / Poison
+      bestiaryNumber: 92
+      sprite: {fileID: 21300000, guid: 22dcd00bc91c8f64b8043d347627329e, type: 3}
+    - name: Yaromon
+      types: Ghost / Poison
+      bestiaryNumber: 93
+      sprite: {fileID: 21300000, guid: f4c8a16cd6382ba48a7ac5637c632b51, type: 3}
+    - name: Lumolyn
+      types: Ghost / Poison
+      bestiaryNumber: 94
+      sprite: {fileID: 21300000, guid: c2ef34289f98132458042c0911f53091, type: 3}
+    origins:
+    - Hexcraft
+    abilityId: u610_kaironet
+    stats:
+      attack: 62
+      attackSpeed: 0.73
+      abilityPower: 100
+      omnivamp: 0
+      criticalChance: 0.1
+      criticalMultiplier: 1.5
+      armor: 22
+      magicResist: 35
+      attackRange: 3
+      manaCost: 70
+      moveInterval: 0.52
+    designerNotes: U6.10 playable family. Battle ability is implemented in MonsterTacticsU610Abilities.
+  - id: family_xenobor
+    enabled: 1
+    displayName: Xenobor
+    shopCost: 1
+    combatRole: Tank
+    baseHp: 670
+    forms:
+    - name: Xenobor
+      types: Ghost
+      bestiaryNumber: 355
+      sprite: {fileID: 21300000, guid: a095e867a3c8e524bb75568d752c8aff, type: 3}
+    - name: Vexovek
+      types: Ghost
+      bestiaryNumber: 356
+      sprite: {fileID: 21300000, guid: 4ee5db3992b14de499cc069cc1b513de, type: 3}
+    - name: Wiloris
+      types: Ghost
+      bestiaryNumber: 477
+      sprite: {fileID: 21300000, guid: 5cf1e5e8648d2d34086e07babe67f1b2, type: 3}
+    origins:
+    - Hexcraft
+    abilityId: u610_xenobor
+    stats:
+      attack: 43
+      attackSpeed: 0.6
+      abilityPower: 100
+      omnivamp: 0
+      criticalChance: 0.1
+      criticalMultiplier: 1.5
+      armor: 48
+      magicResist: 49
+      attackRange: 1
+      manaCost: 70
+      moveInterval: 0.52
+    designerNotes: U6.10 playable family. Battle ability is implemented in MonsterTacticsU610Abilities.
+  - id: family_orbivek
+    enabled: 1
+    displayName: Orbivek
+    shopCost: 3
+    combatRole: Fighter
+    baseHp: 700
+    forms:
+    - name: Orbivek
+      types: Electric
+      bestiaryNumber: 403
+      sprite: {fileID: 21300000, guid: 030b7e09bf2a95045b71138210a9eccc, type: 3}
+    - name: Morarius
+      types: Electric
+      bestiaryNumber: 404
+      sprite: {fileID: 21300000, guid: 8acc44ea9db3ec2478535ac1fb705546, type: 3}
+    - name: Nerotar
+      types: Electric
+      bestiaryNumber: 405
+      sprite: {fileID: 21300000, guid: 1cc3846742bb1fd4799867738bc1a33f, type: 3}
+    origins:
+    - Overdrive
+    abilityId: u610_orbivek
+    stats:
+      attack: 72
+      attackSpeed: 0.77
+      abilityPower: 100
+      omnivamp: 0
+      criticalChance: 0.1
+      criticalMultiplier: 1.5
+      armor: 34
+      magicResist: 32
+      attackRange: 1
+      manaCost: 75
+      moveInterval: 0.52
+    designerNotes: U6.10 playable family. Battle ability is implemented in MonsterTacticsU610Abilities.
+  - id: family_vexorius
+    enabled: 1
+    displayName: Vexorius
+    shopCost: 2
+    combatRole: Mage
+    baseHp: 450
+    forms:
+    - name: Vexorius
+      types: Psychic
+      bestiaryNumber: 856
+      sprite: {fileID: 21300000, guid: 0e3b5ce5ee318544c8057555c4664bba, type: 3}
+    - name: Xenorix
+      types: Psychic
+      bestiaryNumber: 857
+      sprite: {fileID: 21300000, guid: 9be2808ff2a11fc4eb9c935d39d51152, type: 3}
+    - name: Wilotar
+      types: Psychic / Fairy
+      bestiaryNumber: 858
+      sprite: {fileID: 21300000, guid: edace027480e5fe45847739608a8c7c0, type: 3}
+    origins:
+    - Hexcraft
+    abilityId: u610_vexorius
+    stats:
+      attack: 54
+      attackSpeed: 0.65
+      abilityPower: 100
+      omnivamp: 0
+      criticalChance: 0.1
+      criticalMultiplier: 1.5
+      armor: 23
+      magicResist: 36
+      attackRange: 3
+      manaCost: 70
+      moveInterval: 0.52
+    designerNotes: U6.10 playable family. Battle ability is implemented in MonsterTacticsU610Abilities.
+  - id: family_evomon
+    enabled: 1
+    displayName: Evomon
+    shopCost: 1
+    combatRole: Ranged
+    baseHp: 470
+    forms:
+    - name: Evomon
+      types: Normal / Flying
+      bestiaryNumber: 661
+      sprite: {fileID: 21300000, guid: 024f93ceb0d63d240ada970aa3212cd1, type: 3}
+    - name: Draxirix
+      types: Fire / Flying
+      bestiaryNumber: 662
+      sprite: {fileID: 21300000, guid: e2e0c0294f5544d47a705d58b936a857, type: 3}
+    - name: Rovadrel
+      types: Fire / Flying
+      bestiaryNumber: 663
+      sprite: {fileID: 21300000, guid: 1913a0abaca199e4ea6d4141d51c1b95, type: 3}
+    origins:
+    - Swifty
+    abilityId: u610_evomon
+    stats:
+      attack: 47
+      attackSpeed: 0.84
+      abilityPower: 100
+      omnivamp: 0
+      criticalChance: 0.1
+      criticalMultiplier: 1.5
+      armor: 24
+      magicResist: 25
+      attackRange: 4
+      manaCost: 65
+      moveInterval: 0.52
+    designerNotes: U6.10 playable family. Battle ability is implemented in MonsterTacticsU610Abilities.
+  - id: family_umbralyn
+    enabled: 1
+    displayName: Umbralyn
+    shopCost: 4
+    combatRole: Ranged
+    baseHp: 560
+    forms:
+    - name: Umbralyn
+      types: Dragon / Ghost
+      bestiaryNumber: 885
+      sprite: {fileID: 21300000, guid: 463095adce45b9143b887e46554c7342, type: 3}
+    - name: Tevodrelet
+      types: Dragon / Ghost
+      bestiaryNumber: 886
+      sprite: {fileID: 21300000, guid: 589edfdade377014182610f54bac7fe7, type: 3}
+    - name: Sylvomora
+      types: Dragon / Ghost
+      bestiaryNumber: 887
+      sprite: {fileID: 21300000, guid: d17f2333c7962594fb0b6e6b6375ce8a, type: 3}
+    origins:
+    - Swifty
+    abilityId: u610_umbralyn
+    stats:
+      attack: 81
+      attackSpeed: 0.91
+      abilityPower: 100
+      omnivamp: 0
+      criticalChance: 0.1
+      criticalMultiplier: 1.5
+      armor: 27
+      magicResist: 31
+      attackRange: 4
+      manaCost: 80
+      moveInterval: 0.52
+    designerNotes: U6.10 playable family. Battle ability is implemented in MonsterTacticsU610Abilities.
+  - id: family_stormlynx
+    enabled: 1
+    displayName: Stormlynx
+    shopCost: 5
+    combatRole: Assassin
+    baseHp: 890
+    forms:
+    - name: Stormlynx
+      types: Electric
+      bestiaryNumber: 807
+      sprite: {fileID: 21300000, guid: b4acec39a1705f44ebc840e3e529a9ea, type: 3}
+    - name: Stormlynx
+      types: Electric
+      bestiaryNumber: 807
+      sprite: {fileID: 21300000, guid: b4acec39a1705f44ebc840e3e529a9ea, type: 3}
+    - name: Stormlynx
+      types: Electric
+      bestiaryNumber: 807
+      sprite: {fileID: 21300000, guid: b4acec39a1705f44ebc840e3e529a9ea, type: 3}
+    origins:
+    - Plasma Engine
+    abilityId: u611_stormlynx
+    stats:
+      attack: 98
+      attackSpeed: 1.08
+      abilityPower: 100
+      omnivamp: 0
+      criticalChance: 0.1
+      criticalMultiplier: 1.5
+      armor: 38
+      magicResist: 38
+      attackRange: 1
+      manaCost: 70
+      moveInterval: 0.42
+    designerNotes: U6.11 standalone 5g Electric Assassin; Plasma Fists dashes, physical primary and up to two distinct magic chains within 2 hexes. Other U6.11 families intentionally NOT installed.
+  - id: family_skyweave
+    enabled: 1
+    displayName: Skyweave
+    shopCost: 5
+    combatRole: Mage
+    baseHp: 900
+    forms:
+    - name: Skyweave
+      types: Dragon / Psychic
+      bestiaryNumber: 380
+      sprite: {fileID: 21300000, guid: 9fccdc54507e9a9428abfec35df83330, type: 3}
+    - name: Skyweave
+      types: Dragon / Psychic
+      bestiaryNumber: 380
+      sprite: {fileID: 21300000, guid: 9fccdc54507e9a9428abfec35df83330, type: 3}
+    - name: Skyweave
+      types: Dragon / Psychic
+      bestiaryNumber: 380
+      sprite: {fileID: 21300000, guid: 9fccdc54507e9a9428abfec35df83330, type: 3}
+    origins:
+    - Eon Bond
+    abilityId: u6114_skyweave
+    stats:
+      attack: 60
+      attackSpeed: 0.82
+      abilityPower: 100
+      omnivamp: 0
+      criticalChance: 0.1
+      criticalMultiplier: 1.5
+      armor: 38
+      magicResist: 42
+      attackRange: 3
+      manaCost: 80
+      moveInterval: 0.55
+    designerNotes: 'U6.11.4 Eon Duo standalone 5g; matching frame-based art with fallback. Mist Ball: targeted magic spell, shields lowest HP% ally.'
+  - id: family_skyshard
+    enabled: 1
+    displayName: Skyshard
+    shopCost: 5
+    combatRole: Ranged
+    baseHp: 800
+    forms:
+    - name: Skyshard
+      types: Dragon / Psychic
+      bestiaryNumber: 381
+      sprite: {fileID: 21300000, guid: 3798ca2e92b3cda4eaadc1cc52febb47, type: 3}
+    - name: Skyshard
+      types: Dragon / Psychic
+      bestiaryNumber: 381
+      sprite: {fileID: 21300000, guid: 3798ca2e92b3cda4eaadc1cc52febb47, type: 3}
+    - name: Skyshard
+      types: Dragon / Psychic
+      bestiaryNumber: 381
+      sprite: {fileID: 21300000, guid: 3798ca2e92b3cda4eaadc1cc52febb47, type: 3}
+    origins:
+    - Eon Bond
+    abilityId: u6114_skyshard
+    stats:
+      attack: 74
+      attackSpeed: 0.95
+      abilityPower: 100
+      omnivamp: 0
+      criticalChance: 0.1
+      criticalMultiplier: 1.5
+      armor: 32
+      magicResist: 35
+      attackRange: 4
+      manaCost: 90
+      moveInterval: 0.55
+    designerNotes: 'U6.11.4 Eon Duo standalone 5g; matching frame-based art with fallback. Luster Purge: AS buff, every 3rd attack shoots piercing magic.'
+  - id: family_spriggit
+    enabled: 1
+    displayName: Spriggit
+    shopCost: 2
+    combatRole: Assassin
+    baseHp: 510
+    forms:
+    - name: Spriggit
+      types: Grass
+      bestiaryNumber: 252
+      sprite: {fileID: 21300000, guid: 0520d351596f0ae4094e2bd1c2d0d24a, type: 3}
+    - name: Branchblade
+      types: Grass
+      bestiaryNumber: 253
+      sprite: {fileID: 21300000, guid: ec309bad5b015ff409fd6a446c3ef2c5, type: 3}
+    - name: Verdantis
+      types: Grass
+      bestiaryNumber: 254
+      sprite: {fileID: 21300000, guid: fef18658e5329014ea0abfe8fb0cae76, type: 3}
+    origins:
+    - First Partners
+    abilityId: u6116_leaf_blade
+    stats:
+      attack: 61
+      attackSpeed: 0.88
+      abilityPower: 100
+      omnivamp: 0
+      criticalChance: 0.1
+      criticalMultiplier: 1.5
+      armor: 28
+      magicResist: 27
+      attackRange: 1
+      manaCost: 70
+      moveInterval: 0.42
+    designerNotes: 'U6.11.6 2g Grass / First Partners Assassin. Leaf Blade: 175/265/420% AD physical, +25% damage from behind the target. Uses standard combat evolution and 2g shop finite pool.'
+  - id: family_tricklet
+    enabled: 1
+    displayName: Tricklet
+    shopCost: 3
+    combatRole: Assassin
+    baseHp: 570
+    forms:
+    - name: Tricklet
+      types: Dark / Fairy
+      bestiaryNumber: 859
+      sprite: {fileID: 21300000, guid: 7432fd1f3c1e3d243ab26217e564f67c, type: 3}
+    - name: Trickshade
+      types: Dark / Fairy
+      bestiaryNumber: 860
+      sprite: {fileID: 21300000, guid: ec160369b011c2e48aecc8b9154769ed, type: 3}
+    - name: Duskwraith
+      types: Dark / Fairy
+      bestiaryNumber: 861
+      sprite: {fileID: 21300000, guid: 95be09cec0a7dda42a05958cf66a3226, type: 3}
+    origins:
+    - Playful
+    abilityId: u6117_play_rough
+    stats:
+      attack: 45
+      attackSpeed: 0.82
+      abilityPower: 100
+      omnivamp: 0
+      criticalChance: 0.1
+      criticalMultiplier: 1.5
+      armor: 30
+      magicResist: 30
+      attackRange: 1
+      manaCost: 80
+      moveInterval: 0.42
+    designerNotes: 'U6.11.7 3g Dark/Fairy / Playful AP Assassin. Play Rough: two separate Magic Damage hits; each 100/155/250 + 45% AP. If first target faints, second hit redirects. 80 Mana.'
+  traits:
+  - id: trait_fire
+    enabled: 1
+    displayName: Fire
+    isOrigin: 0
+    matchingUnitsOnly: 1
+    tiers:
+    - uniqueFamiliesRequired: 2
+      description: +12% AD and +12 AP
+      effects:
+      - stat: 0
+        value: 0.12
+        vfxPresetId: 
+      - stat: 2
+        value: 12
+        vfxPresetId: 
+    - uniqueFamiliesRequired: 3
+      description: +22% AD and +22 AP
+      effects:
+      - stat: 0
+        value: 0.22
+        vfxPresetId: 
+      - stat: 2
+        value: 22
+        vfxPresetId: 
+    designerNotes: 
+  - id: trait_water
+    enabled: 1
+    displayName: Water
+    isOrigin: 0
+    matchingUnitsOnly: 1
+    tiers:
+    - uniqueFamiliesRequired: 2
+      description: +15% mana gained
+      effects:
+      - stat: 6
+        value: 0.15
+        vfxPresetId: 
+    - uniqueFamiliesRequired: 3
+      description: +25% mana gained
+      effects:
+      - stat: 6
+        value: 0.25
+        vfxPresetId: 
+    designerNotes: 
+  - id: trait_grass
+    enabled: 1
+    displayName: Grass
+    isOrigin: 0
+    matchingUnitsOnly: 1
+    tiers:
+    - uniqueFamiliesRequired: 2
+      description: +12% maximum HP
+      effects:
+      - stat: 3
+        value: 0.12
+        vfxPresetId: 
+    designerNotes: 
+  - id: trait_dragon
+    enabled: 1
+    displayName: Dragon
+    isOrigin: 0
+    matchingUnitsOnly: 1
+    tiers:
+    - uniqueFamiliesRequired: 2
+      description: +15% damage dealt
+      effects:
+      - stat: 4
+        value: 0.15
+        vfxPresetId: 
+    designerNotes: 
+  - id: trait_ground
+    enabled: 1
+    displayName: Ground
+    isOrigin: 0
+    matchingUnitsOnly: 1
+    tiers:
+    - uniqueFamiliesRequired: 2
+      description: +15 Armor and Magic Resist
+      effects:
+      - stat: 8
+        value: 15
+        vfxPresetId: 
+      - stat: 9
+        value: 15
+        vfxPresetId: 
+    designerNotes: 
+  - id: trait_first_partners
+    enabled: 1
+    displayName: First Partners
+    isOrigin: 1
+    matchingUnitsOnly: 1
+    tiers:
+    - uniqueFamiliesRequired: 2
+      description: +10% Attack Speed
+      effects:
+      - stat: 1
+        value: 0.1
+        vfxPresetId: 
+    - uniqueFamiliesRequired: 4
+      description: +20% Attack Speed
+      effects:
+      - stat: 1
+        value: 0.2
+        vfxPresetId: 
+    - uniqueFamiliesRequired: 6
+      description: +35% Attack Speed
+      effects:
+      - stat: 1
+        value: 0.35
+        vfxPresetId: 
+    designerNotes: 
+  - id: trait_playful
+    enabled: 1
+    displayName: Playful
+    isOrigin: 1
+    matchingUnitsOnly: 1
+    tiers:
+    - uniqueFamiliesRequired: 2
+      description: +15% Attack Speed, +10 percentage points Crit Chance
+      effects:
+      - stat: 1
+        value: 0.15
+        vfxPresetId: 
+      - stat: 7
+        value: 0.1
+        vfxPresetId: 
+    designerNotes: 
+  - id: trait_legendary_beasts
+    enabled: 1
+    displayName: Legendary Beasts
+    isOrigin: 1
+    matchingUnitsOnly: 1
+    tiers:
+    - uniqueFamiliesRequired: 2
+      description: +10% damage dealt and +10% maximum HP
+      effects:
+      - stat: 4
+        value: 0.1
+        vfxPresetId: 
+      - stat: 3
+        value: 0.1
+        vfxPresetId: 
+    - uniqueFamiliesRequired: 3
+      description: Retain previous bonuses; also reduce incoming damage by 20%
+      effects:
+      - stat: 4
+        value: 0.1
+        vfxPresetId: 
+      - stat: 3
+        value: 0.1
+        vfxPresetId: 
+      - stat: 5
+        value: -0.2
+        vfxPresetId: 
+    designerNotes: 
+  - id: trait_normal
+    enabled: 1
+    displayName: Normal
+    isOrigin: 0
+    matchingUnitsOnly: 1
+    tiers: []
+    designerNotes: 
+  - id: trait_fighting
+    enabled: 1
+    displayName: Fighting
+    isOrigin: 0
+    matchingUnitsOnly: 1
+    tiers: []
+    designerNotes: 
+  - id: trait_psychic
+    enabled: 1
+    displayName: Psychic
+    isOrigin: 0
+    matchingUnitsOnly: 1
+    tiers: []
+    designerNotes: 
+  - id: trait_poison
+    enabled: 1
+    displayName: Poison
+    isOrigin: 0
+    matchingUnitsOnly: 1
+    tiers: []
+    designerNotes: 
+  - id: trait_ghost
+    enabled: 1
+    displayName: Ghost
+    isOrigin: 0
+    matchingUnitsOnly: 1
+    tiers: []
+    designerNotes: 
+  - id: trait_dark
+    enabled: 1
+    displayName: Dark
+    isOrigin: 0
+    matchingUnitsOnly: 1
+    tiers: []
+    designerNotes: 
+  - id: trait_fairy
+    enabled: 1
+    displayName: Fairy
+    isOrigin: 0
+    matchingUnitsOnly: 1
+    tiers: []
+    designerNotes: 
+  - id: trait_flying
+    enabled: 1
+    displayName: Flying
+    isOrigin: 0
+    matchingUnitsOnly: 1
+    tiers: []
+    designerNotes: 
+  - id: trait_rock
+    enabled: 1
+    displayName: Rock
+    isOrigin: 0
+    matchingUnitsOnly: 1
+    tiers: []
+    designerNotes: 
+  - id: trait_electric
+    enabled: 1
+    displayName: Electric
+    isOrigin: 0
+    matchingUnitsOnly: 1
+    tiers: []
+    designerNotes: 
+  - id: trait_bug
+    enabled: 1
+    displayName: Bug
+    isOrigin: 0
+    matchingUnitsOnly: 1
+    tiers: []
+    designerNotes: 
+  - id: trait_ice
+    enabled: 1
+    displayName: Ice
+    isOrigin: 0
+    matchingUnitsOnly: 1
+    tiers: []
+    designerNotes: 
+  - id: trait_steel
+    enabled: 1
+    displayName: Steel
+    isOrigin: 0
+    matchingUnitsOnly: 1
+    tiers: []
+    designerNotes: 
+  - id: trait_u610_swifty
+    enabled: 1
+    displayName: Swifty
+    isOrigin: 1
+    matchingUnitsOnly: 1
+    tiers:
+    - uniqueFamiliesRequired: 2
+      description: (2) +10% Attack Speed, +3% per hex to current target (max 5 hexes)
+      effects: []
+    designerNotes: 
+  - id: trait_u610_bruiser
+    enabled: 1
+    displayName: Bruiser
+    isOrigin: 1
+    matchingUnitsOnly: 1
+    tiers:
+    - uniqueFamiliesRequired: 2
+      description: (2) +12% max HP to Bruisers and +75 HP to all allies
+      effects: []
+    - uniqueFamiliesRequired: 4
+      description: (4) +24% max HP to Bruisers and +150 HP to all allies
+      effects: []
+    designerNotes: 
+  - id: trait_u610_grit
+    enabled: 1
+    displayName: Grit
+    isOrigin: 1
+    matchingUnitsOnly: 1
+    tiers:
+    - uniqueFamiliesRequired: 2
+      description: '(2) Below 50% HP once: +125 HP, +12% AD, +10% omnivamp'
+      effects: []
+    - uniqueFamiliesRequired: 4
+      description: '(4) Below 50% HP once: +250 HP, +20% AD, +15% omnivamp'
+      effects: []
+    designerNotes: 
+  - id: trait_u610_overdrive
+    enabled: 1
+    displayName: Overdrive
+    isOrigin: 1
+    matchingUnitsOnly: 1
+    tiers:
+    - uniqueFamiliesRequired: 2
+      description: (2) After cast +12% Damage Amp for 8s
+      effects: []
+    - uniqueFamiliesRequired: 3
+      description: (3) After cast +20% Damage Amp and +15% AS for 8s
+      effects: []
+    designerNotes: 
+  - id: trait_u610_hexcraft
+    enabled: 1
+    displayName: Hexcraft
+    isOrigin: 1
+    matchingUnitsOnly: 1
+    tiers:
+    - uniqueFamiliesRequired: 2
+      description: (2) Ability hits apply 20% Shred for 4s
+      effects: []
+    - uniqueFamiliesRequired: 3
+      description: (3) Same Shred and +10% damage to shredded enemies
+      effects: []
+    designerNotes: 
+  - id: trait_u610_ironfortress
+    enabled: 1
+    displayName: Iron Fortress
+    isOrigin: 1
+    matchingUnitsOnly: 1
+    tiers:
+    - uniqueFamiliesRequired: 1
+      description: (1) +15 Armor/MR; magic counter every fourth basic received
+      effects: []
+    designerNotes: 
+  - id: trait_u610_shadowthief
+    enabled: 1
+    displayName: Shadow Thief
+    isOrigin: 1
+    matchingUnitsOnly: 1
+    tiers:
+    - uniqueFamiliesRequired: 1
+      description: (1) Once per fight steal AS and damage on first ability hit
+      effects: []
+    designerNotes: 
+  - id: trait_u610_magmacore
+    enabled: 1
+    displayName: Magma Core
+    isOrigin: 1
+    matchingUnitsOnly: 1
+    tiers:
+    - uniqueFamiliesRequired: 1
+      description: (1) Bonus Armor/MR converts to AP; immune to Burn
+      effects: []
+    designerNotes: 
+  - id: trait_plasma_engine
+    enabled: 1
+    displayName: Plasma Engine
+    isOrigin: 1
+    matchingUnitsOnly: 1
+    tiers:
+    - uniqueFamiliesRequired: 1
+      description: 'Every 3 basic attacks: +10 Mana. After casting: +25% AS for 4s (refresh, no stacking).'
+      effects: []
+    designerNotes: U6.11.3 unique 5g origin; proc values edited in the Plasma Engine Profile asset. Runtime hook applies bonuses to Stormlynx only; no passive double application.
+  - id: trait_eon_bond
+    enabled: 1
+    displayName: Eon Bond
+    isOrigin: 1
+    matchingUnitsOnly: 1
+    tiers:
+    - uniqueFamiliesRequired: 2
+      description: 'Skyweave + Skyshard alive: +10% damage dealt. Casting grants partner 20 Mana.'
+      effects: []
+    designerNotes: Runtime checks living pair at damage and cast time. No passive bonus while one Eon sibling is fainted. Configured via profile.
+  abilities:
+  - id: ability_pebblin_rock_guard
+    enabled: 1
+    displayName: Rock Guard
+    description: Raises a rocky barrier that absorbs incoming damage.
+    formula: 90 + 70% AP shield
+    damageKind: Shield
+    legacyBasePrimaryDamage: 0
+    legacyBaseSplashDamage: 0
+    legacyBaseHealing: 0
+    legacyBaseShield: 160
+    hitCount: 1
+    splashRadius: 0
+    maximumSecondaryTargets: 2147483647
+    burnDuration: 0
+    burnMaxHpPerSecond: 0
+    woundDuration: 0
+    legacyHandlerMonster: Pebblin
+    useEffectBlocks: 0
+    primary:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    splash:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    selfHeal:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    selfShield:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    vfxPreset: 0
+    vfxPrefab: {fileID: 0}
+    vfxScale: 1
+    vfxLifetime: 1.2
+    designerNotes: Imported from MonsterTacticsCombatRules.AbilityFor; runtime still uses legacy handler.
+  - id: ability_flarbit_pyro_ball
+    enabled: 1
+    displayName: Pyro Ball
+    description: Deals magic damage to the target and splashes enemies within 1 hex.
+    formula: 200% AP + 80% AP splash
+    damageKind: Magic
+    legacyBasePrimaryDamage: 200
+    legacyBaseSplashDamage: 80
+    legacyBaseHealing: 0
+    legacyBaseShield: 0
+    hitCount: 1
+    splashRadius: 1
+    maximumSecondaryTargets: 2147483647
+    burnDuration: 0
+    burnMaxHpPerSecond: 0
+    woundDuration: 0
+    legacyHandlerMonster: Flarbit
+    useEffectBlocks: 0
+    primary:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    splash:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    selfHeal:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    selfShield:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    vfxPreset: 0
+    vfxPrefab: {fileID: 0}
+    vfxScale: 1
+    vfxLifetime: 1.2
+    designerNotes: Imported from MonsterTacticsCombatRules.AbilityFor; runtime still uses legacy handler.
+  - id: ability_mysprit_psybeam
+    enabled: 1
+    displayName: Psybeam
+    description: Deals magic damage to the target and up to two other enemies within 1 hex.
+    formula: 185% AP to up to 3 foes
+    damageKind: Magic
+    legacyBasePrimaryDamage: 185
+    legacyBaseSplashDamage: 185
+    legacyBaseHealing: 0
+    legacyBaseShield: 0
+    hitCount: 1
+    splashRadius: 1
+    maximumSecondaryTargets: 2
+    burnDuration: 0
+    burnMaxHpPerSecond: 0
+    woundDuration: 0
+    legacyHandlerMonster: Mysprit
+    useEffectBlocks: 0
+    primary:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    splash:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    selfHeal:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    selfShield:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    vfxPreset: 0
+    vfxPrefab: {fileID: 0}
+    vfxScale: 1
+    vfxLifetime: 1.2
+    designerNotes: Imported from MonsterTacticsCombatRules.AbilityFor; runtime still uses legacy handler.
+  - id: ability_mosslet_leaf_arrow
+    enabled: 1
+    displayName: Leaf Arrow
+    description: Fires a precise physical leaf arrow at its target.
+    formula: 25 + 170% ATK
+    damageKind: Physical
+    legacyBasePrimaryDamage: 144
+    legacyBaseSplashDamage: 0
+    legacyBaseHealing: 0
+    legacyBaseShield: 0
+    hitCount: 1
+    splashRadius: 0
+    maximumSecondaryTargets: 2147483647
+    burnDuration: 0
+    burnMaxHpPerSecond: 0
+    woundDuration: 0
+    legacyHandlerMonster: Mosslet
+    useEffectBlocks: 0
+    primary:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    splash:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    selfHeal:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    selfShield:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    vfxPreset: 0
+    vfxPrefab: {fileID: 0}
+    vfxScale: 1
+    vfxLifetime: 1.2
+    designerNotes: Imported from MonsterTacticsCombatRules.AbilityFor; runtime still uses legacy handler.
+  - id: ability_emberlet_flamethrower
+    enabled: 1
+    displayName: Flamethrower
+    description: Deals magic damage to its target and splashes enemies within 1 hex. Does not apply Burn.
+    formula: 200% AP + 65% AP splash
+    damageKind: Magic
+    legacyBasePrimaryDamage: 200
+    legacyBaseSplashDamage: 65
+    legacyBaseHealing: 0
+    legacyBaseShield: 0
+    hitCount: 1
+    splashRadius: 1
+    maximumSecondaryTargets: 2147483647
+    burnDuration: 0
+    burnMaxHpPerSecond: 0
+    woundDuration: 0
+    legacyHandlerMonster: Emberlet
+    useEffectBlocks: 0
+    primary:
+      flat: 0
+      attack: 0
+      abilityPower: 2
+    splash:
+      flat: 0
+      attack: 0
+      abilityPower: 0.65
+    selfHeal:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    selfShield:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    vfxPreset: 1
+    vfxPrefab: {fileID: 0}
+    vfxScale: 1
+    vfxLifetime: 1.2
+    designerNotes: Imported from MonsterTacticsCombatRules.AbilityFor; runtime still uses legacy handler.
+  - id: ability_budhorn_leech_seed
+    enabled: 1
+    displayName: Leech Seed
+    description: Damages an enemy and heals the caster.
+    formula: 140% AP + 75% AP healing
+    damageKind: Magic
+    legacyBasePrimaryDamage: 140
+    legacyBaseSplashDamage: 0
+    legacyBaseHealing: 75
+    legacyBaseShield: 0
+    hitCount: 1
+    splashRadius: 0
+    maximumSecondaryTargets: 2147483647
+    burnDuration: 0
+    burnMaxHpPerSecond: 0
+    woundDuration: 0
+    legacyHandlerMonster: Budhorn
+    useEffectBlocks: 0
+    primary:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    splash:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    selfHeal:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    selfShield:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    vfxPreset: 0
+    vfxPrefab: {fileID: 0}
+    vfxScale: 1
+    vfxLifetime: 1.2
+    designerNotes: Imported from MonsterTacticsCombatRules.AbilityFor; runtime still uses legacy handler.
+  - id: ability_ripplet_aqua_jet
+    enabled: 1
+    displayName: Aqua Jet
+    description: Dashes adjacent to its target and deals physical damage. Cast range follows normal attack targeting.
+    formula: 20 + 165% ATK
+    damageKind: Physical
+    legacyBasePrimaryDamage: 110.75
+    legacyBaseSplashDamage: 0
+    legacyBaseHealing: 0
+    legacyBaseShield: 0
+    hitCount: 1
+    splashRadius: 0
+    maximumSecondaryTargets: 2147483647
+    burnDuration: 0
+    burnMaxHpPerSecond: 0
+    woundDuration: 0
+    legacyHandlerMonster: Ripplet
+    useEffectBlocks: 0
+    primary:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    splash:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    selfHeal:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    selfShield:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    vfxPreset: 0
+    vfxPrefab: {fileID: 0}
+    vfxScale: 1
+    vfxLifetime: 1.2
+    designerNotes: Imported from MonsterTacticsCombatRules.AbilityFor; runtime still uses legacy handler.
+  - id: ability_tusklet_dragon_claw
+    enabled: 1
+    displayName: Dragon Claw
+    description: Slashes a single enemy with its claws.
+    formula: 30 + 180% ATK
+    damageKind: Physical
+    legacyBasePrimaryDamage: 152.4
+    legacyBaseSplashDamage: 0
+    legacyBaseHealing: 0
+    legacyBaseShield: 0
+    hitCount: 1
+    splashRadius: 0
+    maximumSecondaryTargets: 2147483647
+    burnDuration: 0
+    burnMaxHpPerSecond: 0
+    woundDuration: 0
+    legacyHandlerMonster: Tusklet
+    useEffectBlocks: 0
+    primary:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    splash:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    selfHeal:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    selfShield:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    vfxPreset: 0
+    vfxPrefab: {fileID: 0}
+    vfxScale: 1
+    vfxLifetime: 1.2
+    designerNotes: Imported from MonsterTacticsCombatRules.AbilityFor; runtime still uses legacy handler.
+  - id: ability_dunebit_dragon_rush
+    enabled: 1
+    displayName: Dragon Rush
+    description: 'Dashes to the farthest backline target and deals physical damage. Passive: 10% Omnivamp from actual HP damage dealt.'
+    formula: 30 + 105% ATK
+    damageKind: Physical
+    legacyBasePrimaryDamage: 119.24999
+    legacyBaseSplashDamage: 0
+    legacyBaseHealing: 0
+    legacyBaseShield: 0
+    hitCount: 1
+    splashRadius: 0
+    maximumSecondaryTargets: 2147483647
+    burnDuration: 0
+    burnMaxHpPerSecond: 0
+    woundDuration: 0
+    legacyHandlerMonster: Dunebit
+    useEffectBlocks: 0
+    primary:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    splash:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    selfHeal:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    selfShield:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    vfxPreset: 0
+    vfxPrefab: {fileID: 0}
+    vfxScale: 1
+    vfxLifetime: 1.2
+    designerNotes: Imported from MonsterTacticsCombatRules.AbilityFor; runtime still uses legacy handler.
+  - id: ability_mistrip_water_shuriken
+    enabled: 1
+    displayName: Water Shuriken
+    description: Strikes the target three times, each hit 0.13 seconds apart; physical damage per hit.
+    formula: "3 hits \xD7 (22 + 60% ATK)"
+    damageKind: Physical
+    legacyBasePrimaryDamage: 58
+    legacyBaseSplashDamage: 0
+    legacyBaseHealing: 0
+    legacyBaseShield: 0
+    hitCount: 3
+    splashRadius: 0
+    maximumSecondaryTargets: 2147483647
+    burnDuration: 0
+    burnMaxHpPerSecond: 0
+    woundDuration: 0
+    legacyHandlerMonster: Mistrip
+    useEffectBlocks: 0
+    primary:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    splash:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    selfHeal:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    selfShield:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    vfxPreset: 0
+    vfxPrefab: {fileID: 0}
+    vfxScale: 1
+    vfxLifetime: 1.2
+    designerNotes: Imported from MonsterTacticsCombatRules.AbilityFor; runtime still uses legacy handler.
+  - id: ability_voltrix_thunderbolt
+    enabled: 1
+    displayName: Thunderbolt
+    description: Deals magic damage and splashes enemies within 1 hex of the target.
+    formula: 230% AP magic + 85% AP splash
+    damageKind: Magic
+    legacyBasePrimaryDamage: 230
+    legacyBaseSplashDamage: 85
+    legacyBaseHealing: 0
+    legacyBaseShield: 0
+    hitCount: 1
+    splashRadius: 1
+    maximumSecondaryTargets: 2147483647
+    burnDuration: 0
+    burnMaxHpPerSecond: 0
+    woundDuration: 0
+    legacyHandlerMonster: Voltrix
+    useEffectBlocks: 0
+    primary:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    splash:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    selfHeal:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    selfShield:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    vfxPreset: 0
+    vfxPrefab: {fileID: 0}
+    vfxScale: 1
+    vfxLifetime: 1.2
+    designerNotes: Imported from MonsterTacticsCombatRules.AbilityFor; runtime still uses legacy handler.
+  - id: ability_pyrothane_sacred_fire
+    enabled: 1
+    displayName: Sacred Fire
+    description: Deals physical damage to the target and all enemies within 1 hex. Applies Burn for 5s (1% maximum HP true damage per second, 5 ticks) and Wound (-33% healing) for 5s; effects refresh, never stack.
+    formula: 45 + 175% ATK physical; 65% ATK splash within 1 hex
+    damageKind: Physical
+    legacyBasePrimaryDamage: 206
+    legacyBaseSplashDamage: 59.8
+    legacyBaseHealing: 0
+    legacyBaseShield: 0
+    hitCount: 1
+    splashRadius: 1
+    maximumSecondaryTargets: 2147483647
+    burnDuration: 5
+    burnMaxHpPerSecond: 0.01
+    woundDuration: 5
+    legacyHandlerMonster: Pyrothane
+    useEffectBlocks: 0
+    primary:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    splash:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    selfHeal:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    selfShield:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    vfxPreset: 0
+    vfxPrefab: {fileID: 0}
+    vfxScale: 1
+    vfxLifetime: 1.2
+    designerNotes: Imported from MonsterTacticsCombatRules.AbilityFor; runtime still uses legacy handler.
+  - id: ability_aqualith_aurora_beam
+    enabled: 1
+    displayName: Aurora Beam
+    description: 'Deals magic damage and refreshes its own shield (maximum shield: 35% of maximum HP).'
+    formula: 140% AP magic + (160 + 120% AP) self shield
+    damageKind: Magic
+    legacyBasePrimaryDamage: 140
+    legacyBaseSplashDamage: 0
+    legacyBaseHealing: 0
+    legacyBaseShield: 280
+    hitCount: 1
+    splashRadius: 0
+    maximumSecondaryTargets: 2147483647
+    burnDuration: 0
+    burnMaxHpPerSecond: 0
+    woundDuration: 0
+    legacyHandlerMonster: Aqualith
+    useEffectBlocks: 0
+    primary:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    splash:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    selfHeal:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    selfShield:
+      flat: 0
+      attack: 0
+      abilityPower: 0
+    vfxPreset: 0
+    vfxPrefab: {fileID: 0}
+    vfxScale: 1
+    vfxLifetime: 1.2
+    designerNotes: Imported from MonsterTacticsCombatRules.AbilityFor; runtime still uses legacy handler.

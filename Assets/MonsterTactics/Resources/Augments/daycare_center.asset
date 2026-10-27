@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f308cd3ef9cd5742b9c1c9982348b4f, type: 3}
+  m_Name: daycare_center
+  m_EditorClassIdentifier: Assembly-CSharp::MonsterTactics.MonsterTacticsAugmentDefinition
+  id: daycare_center
+  displayName: Daycare Center
+  description: "Place a Pok\xE9mon on your marked Daycare reserve hex. After every 3 PvP combats with that Pok\xE9mon there, gain a free 1-star copy. Full bench rewards wait."
+  icon: {fileID: 0}
+  cardArtwork: {fileID: 0}
+  categoryBadge: {fileID: 0}
+  useCustomAccent: 0
+  accentColor: {r: 0.4, g: 0.83, b: 0.94, a: 1}
+  artworkOpacity: 0.24
+  showGlow: 1
+  tier: 2
+  category: 5
+  enabledInPool: 0
+  offerWeight: 100
+  allowedSelections: 7
+  minPlayerLevel: 1
+  minGold: 0
+  allowRepeatInMatch: 0
+  exclusiveGroup: 
+  conflictIds: []
+  requiredAugmentIds: []
+  requirements: []
+  preferredTraitKey: 
+  preferredFamilyKey: 
+  preferredBonusWeight: 0
+  nextSelectionTierAdjustment: 0
+  effects:
+  - kind: 11
+    trigger: 2
+    rule: 0
+    value: 1
+    secondaryValue: 0
+    roundInterval: 3
+    intervalSeconds: 2
+    capPercent: 50
+    item: 0
+    delayRounds: 0
+    maxTriggers: 0
+    oncePerRound: 1
+  stageVariants: []

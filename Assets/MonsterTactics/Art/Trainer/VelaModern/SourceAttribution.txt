@@ -1,0 +1,2 @@
+This public edition contains a new, procedural low-poly training dummy instead of the original third-party model.
+The source model and its textures are NOT included. The generated dummy is unrigged, so trainer animations need retargeting in Unity.

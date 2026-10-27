@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f308cd3ef9cd5742b9c1c9982348b4f, type: 3}
+  m_Name: field_supplies
+  m_EditorClassIdentifier: Assembly-CSharp::MonsterTactics.MonsterTacticsAugmentDefinition
+  id: field_supplies
+  displayName: Field Supplies
+  description: "Gain 4 Gold and drop 1 Pok\xE9 Part Capsule on the board. Drag it from the Pok\xE9mon bench to the shop to choose 1 of 4 components."
+  icon: {fileID: 0}
+  cardArtwork: {fileID: 0}
+  categoryBadge: {fileID: 0}
+  useCustomAccent: 0
+  accentColor: {r: 0.4, g: 0.83, b: 0.94, a: 1}
+  artworkOpacity: 0.24
+  showGlow: 1
+  tier: 0
+  category: 4
+  enabledInPool: 1
+  offerWeight: 70
+  allowedSelections: 7
+  minPlayerLevel: 1
+  minGold: 0
+  allowRepeatInMatch: 0
+  exclusiveGroup: 
+  conflictIds: []
+  requiredAugmentIds: []
+  requirements: []
+  preferredTraitKey: 
+  preferredFamilyKey: 
+  preferredBonusWeight: 0
+  nextSelectionTierAdjustment: 0
+  effects:
+  - kind: 1
+    trigger: 0
+    rule: 0
+    value: 4
+    secondaryValue: 0
+    tertiaryValue: 0
+    roundInterval: 1
+    intervalSeconds: 3
+    capPercent: 50
+    item: 0
+    delayRounds: 0
+    maxTriggers: 1
+    oncePerRound: 0
+  - kind: 31
+    trigger: 0
+    rule: 0
+    value: 1
+    secondaryValue: 0
+    tertiaryValue: 0
+    roundInterval: 1
+    intervalSeconds: 3
+    capPercent: 50
+    item: 0
+    delayRounds: 0
+    maxTriggers: 1
+    oncePerRound: 0
+  stageVariants: []

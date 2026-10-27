@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f308cd3ef9cd5742b9c1c9982348b4f, type: 3}
+  m_Name: daycare_breed_master
+  m_EditorClassIdentifier: Assembly-CSharp::MonsterTactics.MonsterTacticsAugmentDefinition
+  id: daycare_breed_master
+  displayName: Daycare Breed Master
+  description: "Every 2 player combat rounds, gain a random 2-Cost Pok\xE9mon and 1 Gold."
+  icon: {fileID: 0}
+  cardArtwork: {fileID: 0}
+  categoryBadge: {fileID: 0}
+  useCustomAccent: 0
+  accentColor: {r: 0.4, g: 0.83, b: 0.94, a: 1}
+  artworkOpacity: 0.24
+  showGlow: 1
+  tier: 1
+  category: 5
+  enabledInPool: 0
+  offerWeight: 100
+  allowedSelections: 7
+  minPlayerLevel: 1
+  minGold: 0
+  allowRepeatInMatch: 0
+  exclusiveGroup: 
+  conflictIds: []
+  requiredAugmentIds: []
+  requirements: []
+  preferredTraitKey: 
+  preferredFamilyKey: 
+  preferredBonusWeight: 0
+  nextSelectionTierAdjustment: 0
+  effects:
+  - kind: 26
+    trigger: 2
+    rule: 0
+    value: 1
+    secondaryValue: 1
+    tertiaryValue: 0
+    roundInterval: 2
+    intervalSeconds: 2
+    capPercent: 50
+    item: 0
+    delayRounds: 0
+    maxTriggers: 0
+    oncePerRound: 1
+  stageVariants: []

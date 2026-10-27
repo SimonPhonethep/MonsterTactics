@@ -1,0 +1,42 @@
+# Unity generated/temporary files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# Visual Studio / Rider / IDE
+.vs/
+.idea/
+.vscode/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+
+# Unity generated
+*.unitypackage
+*.apk
+*.aab
+*.ipa
+*.app
+sysinfo.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backups and imported bulk assets
+*.zip
+Assets/**/back up/

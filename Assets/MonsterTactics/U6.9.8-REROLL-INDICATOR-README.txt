@@ -1,0 +1,24 @@
+MONSTERTACTICS U6.9.8 — AUGMENT REROLL INDICATOR
+
+INSTALL
+1. Exit Play Mode and back up your project.
+2. Extract this ZIP into your Unity project ROOT, merging Assets/MonsterTactics.
+3. Let Unity recompile.
+4. Enter Play Mode and open an augment selection or preview.
+
+CHANGES
+- Shows total remaining rerolls / maximum for each offering at the top.
+- Draws pip indicators showing spent and remaining rerolls.
+- Each augment card displays its remaining / available per-card rerolls.
+- Original independent per-card reroll logic and timer unchanged.
+- Adjustable in Resources/Augments/MonsterTacticsAugmentCatalog: Rerolls Per Card (default 1).
+- New Editor command: MonsterTactics > Augments > U6.9.8 Count Installed and Enabled Augments.
+  That reports YOUR actual catalog, excluding augments not yet installed and
+  identifying disabled augments separately.
+
+ROSTER MATH (if previous custom augment installers were run)
+11 base custom assets + 13 U6.9.2e + 3 U6.9.6 + 12 U6.9.7 = 39 total.
+Tier totals: Rookie 14, Ace 15, Champion 10.
+No new unapproved augment definitions added to this UI patch.
+
+Checks: source/static checks performed. Unity Play Mode compilation not executed here.

@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80067a020effaa74caa38789fc326cd4, type: 3}
+  m_Name: MonsterTacticsAugmentCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::MonsterTactics.MonsterTacticsAugmentCatalog
+  masterEnabled: 0
+  suppressLegacySampleCreation: 1
+  definitions:
+  - {fileID: 11400000, guid: 11d53cd6b8c44e944ab71bccf982ed6e, type: 2}
+  - {fileID: 11400000, guid: b6de61476b91f084aaba6b1d6f47ed9f, type: 2}
+  - {fileID: 11400000, guid: 1b6a097e417a87a478908c70d79c1d93, type: 2}
+  - {fileID: 11400000, guid: 8cea4c01d7a2fe648921ee4b144fee2d, type: 2}
+  - {fileID: 11400000, guid: dcc0c107e0ca91b488534673e2354bed, type: 2}
+  - {fileID: 11400000, guid: 9d68f5e07a6357749a77630436e05fb6, type: 2}
+  - {fileID: 11400000, guid: 415cc382ce1c5d14db124f709512cccf, type: 2}
+  - {fileID: 11400000, guid: 23e767c50dd0bd64dbe8df1956271ee5, type: 2}
+  - {fileID: 11400000, guid: 9ba16a2a27df6c443a659e546617ecd9, type: 2}
+  - {fileID: 11400000, guid: ad8fb9e0fb1cd874cb1abec6d7003ded, type: 2}
+  - {fileID: 11400000, guid: 32310a1c3d4fc7f49bd73a1a4d352cb0, type: 2}
+  - {fileID: 11400000, guid: 46bc0fd2d2fc18b47882025ed30bbc9c, type: 2}
+  - {fileID: 11400000, guid: 902749c5b5e405443a39a1ff7b78ea19, type: 2}
+  - {fileID: 11400000, guid: 6ea7683a6ae767942a6374365c76877d, type: 2}
+  - {fileID: 11400000, guid: 5a85a91b7323cb0468a012fa488438ad, type: 2}
+  - {fileID: 11400000, guid: 68d436e22abad3145aec171c9d0818b6, type: 2}
+  - {fileID: 11400000, guid: 57092ef93332dce42a8339804e6fc83d, type: 2}
+  - {fileID: 11400000, guid: 7e08b353ae1f7d643a060ba796500a2d, type: 2}
+  - {fileID: 11400000, guid: 8197fae401c09284eb71dca546b90ea4, type: 2}
+  - {fileID: 11400000, guid: f46afa72cd4b4364182e52bb99bacb29, type: 2}
+  - {fileID: 11400000, guid: 4b8070a85b540714782841cd04957329, type: 2}
+  - {fileID: 11400000, guid: d68c3cd7ea5de6d4f9b1d69fb637d456, type: 2}
+  - {fileID: 11400000, guid: ca9c7748ca6793d4b9036344f37cac01, type: 2}
+  - {fileID: 11400000, guid: f29f6b2dfb9158d41bd1fc3bd58acbfb, type: 2}
+  - {fileID: 11400000, guid: acf9fef08e1a1004ea71df2df5314710, type: 2}
+  - {fileID: 11400000, guid: 5b9265067e41b0a4fbcd34724b684b7c, type: 2}
+  - {fileID: 11400000, guid: ddd93d6e5ce8fd84fa4b089706f8b5f5, type: 2}
+  - {fileID: 11400000, guid: 820d6aa7b41ea9d458eae6e84cfd0c7a, type: 2}
+  - {fileID: 11400000, guid: d17d49bafbb268643b2553809adf98be, type: 2}
+  - {fileID: 11400000, guid: e17f18c8a386a2c48a3161c667bae7bf, type: 2}
+  - {fileID: 11400000, guid: 2388305bb97942749a3dceca548f8f41, type: 2}
+  - {fileID: 11400000, guid: 12d607747981d534c853f9004f24b0f5, type: 2}
+  - {fileID: 11400000, guid: 45850b634c5b6b64c9021033e415633c, type: 2}
+  - {fileID: 11400000, guid: 120dec42e7a899045b558b1953a288a0, type: 2}
+  - {fileID: 11400000, guid: 78351e8646d6a174cb3890958ee14715, type: 2}
+  - {fileID: 11400000, guid: 7d8be3c96f8baaa4ab2874b5c9546ede, type: 2}
+  - {fileID: 11400000, guid: 73f33786eb3684a4ba7e1f02a0d5244a, type: 2}
+  - {fileID: 11400000, guid: 514e54f29d34fd246a7e5ec8248a895c, type: 2}
+  - {fileID: 11400000, guid: 6e87e5e9d457a44468a47f7afea07a95, type: 2}
+  seed: 42
+  useFreshMatchSeed: 1
+  rerollsPerCard: 1
+  freeOfferRerollsPerSelection: 1
+  firstSelectionSeconds: 43
+  laterSelectionSeconds: 58
+  autoPickWhenTimeExpires: 1
+  useMatchTierPatterns: 1
+  limitSameCategoryToTwo: 1
+  enableTraitFamilyTailoring: 1
+  tierPatterns:
+  - first: 0
+    second: 1
+    final: 2
+    weight: 25
+  - first: 1
+    second: 1
+    final: 1
+    weight: 20
+  - first: 0
+    second: 0
+    final: 1
+    weight: 20
+  - first: 2
+    second: 0
+    final: 1
+    weight: 10
+  - first: 0
+    second: 1
+    final: 1
+    weight: 25

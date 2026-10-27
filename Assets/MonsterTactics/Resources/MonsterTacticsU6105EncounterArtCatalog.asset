@@ -1,0 +1,775 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4c9ddca81ec4c4f8fb87a9ce7e01b84, type: 3}
+  m_Name: MonsterTacticsU6105EncounterArtCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::MonsterTactics.MonsterTacticsU6105EncounterArtCatalog
+  UseUnifiedArt: 1
+  WildScaleMultiplier: 1
+  StageOneBossScaleMultiplier: 1
+  SoloBossScaleMultiplier: 1
+  Entries:
+  - Species: Bristlet
+    StaticSprite: {fileID: 21300000, guid: bcb344cefc36a7443a236e240f9579d8, type: 3}
+    AnimationFrames:
+    - {fileID: 21300000, guid: b10c779d240ae1e44ac30ff32741bea5, type: 3}
+    - {fileID: 21300000, guid: 85788d3221a1ef1458540cde40372965, type: 3}
+    - {fileID: 21300000, guid: e7b3ec15e0b69b346bdb3efdbbb9046b, type: 3}
+    - {fileID: 21300000, guid: 67dcf21f7ea4e344f9aad1189b3f7435, type: 3}
+    - {fileID: 21300000, guid: 2dc7df95fd2cda6449dd5482d11a493e, type: 3}
+    - {fileID: 21300000, guid: aff5ff82164851f458d3ab7597fa2614, type: 3}
+    - {fileID: 21300000, guid: 73ebe479c95fd2f43a4c6f920f664bbd, type: 3}
+    - {fileID: 21300000, guid: 7a24cb75ae45fbe41872b003fccf6ad9, type: 3}
+    - {fileID: 21300000, guid: 3a75aaac04dd3c24fb6806b7f7e5b578, type: 3}
+    - {fileID: 21300000, guid: e65a2b9c91b014744bcf67b3c3720b10, type: 3}
+    - {fileID: 21300000, guid: e3f0d4462c73a094595c2e5acd6e066b, type: 3}
+    - {fileID: 21300000, guid: 43a33590b7c249a4c880b97d6c8aecc7, type: 3}
+    - {fileID: 21300000, guid: 30ef86c8a5b8412489a2ebe324c6827d, type: 3}
+    - {fileID: 21300000, guid: 6fc1e45e33bf47f47b2578a3cca9d76b, type: 3}
+    - {fileID: 21300000, guid: 640f570560f29d946bc6f493bebab333, type: 3}
+    - {fileID: 21300000, guid: c6dccb1b96260324bbc9dee2a8e3643d, type: 3}
+    - {fileID: 21300000, guid: a6fd5a3476f1dc044ae5a209681430e4, type: 3}
+    - {fileID: 21300000, guid: bd64b57ac5fd3124f801a045d803f155, type: 3}
+    - {fileID: 21300000, guid: 9190380d72f17d54d9bf87a347ab158f, type: 3}
+    - {fileID: 21300000, guid: d50f932f5cf249d46a9fc15135830c0a, type: 3}
+    - {fileID: 21300000, guid: 747058dda7a5b47438cfd6f81852ba85, type: 3}
+    - {fileID: 21300000, guid: 3c666338ef1671645b8679f8c4fbcba8, type: 3}
+    - {fileID: 21300000, guid: 9c5ea2084d21cdb4bb4324de2274e86e, type: 3}
+    - {fileID: 21300000, guid: 6bcbee5e21dfe354fa8af338d6d9a280, type: 3}
+    - {fileID: 21300000, guid: 3b91b8a61ac466b4fb21e103272b4c60, type: 3}
+    - {fileID: 21300000, guid: d4a57a32cdedd0f41806f08c55eaa505, type: 3}
+    - {fileID: 21300000, guid: cb9520fe6b20c6a4dbdaaa321f9aea46, type: 3}
+    - {fileID: 21300000, guid: b2af794b216461c48a33bea6fc161a5d, type: 3}
+    - {fileID: 21300000, guid: 93be655227f2b3d44b7e3020b46a158c, type: 3}
+    - {fileID: 21300000, guid: 10e9ea05269cd414b9989a0449553e84, type: 3}
+    FrameDurations:
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.055
+  - Species: Winglit
+    StaticSprite: {fileID: 21300000, guid: ff4df8a1ea6746c41aea7bb009a41974, type: 3}
+    AnimationFrames:
+    - {fileID: 21300000, guid: 9ec7c737d8a88ca46b274fbb944b9401, type: 3}
+    - {fileID: 21300000, guid: c2bd295a3e82a4b408df17f9d4d89457, type: 3}
+    - {fileID: 21300000, guid: 49b44e953157c2d4bb94d78753f5e7d3, type: 3}
+    - {fileID: 21300000, guid: 179ddcaf5a9d9a6438028be2f66c636a, type: 3}
+    - {fileID: 21300000, guid: 83fdb3301849f8c4f85093d0a4004254, type: 3}
+    - {fileID: 21300000, guid: 6a6559f9419ffae46a1a4c8b09fbe6c0, type: 3}
+    - {fileID: 21300000, guid: 80b4c60277b6f5f478ef0df277b26469, type: 3}
+    - {fileID: 21300000, guid: 2c994f5f427ff504cae9bff5eb3fc3c3, type: 3}
+    - {fileID: 21300000, guid: ce67ca878c59e8346b57cdac0ae386c4, type: 3}
+    - {fileID: 21300000, guid: b02adaa4874a5b34b96f1553f2445394, type: 3}
+    - {fileID: 21300000, guid: f4e2630b37043ed43a459b50d73403b8, type: 3}
+    - {fileID: 21300000, guid: e2828839dbb095f4e9ef02c21b86b783, type: 3}
+    - {fileID: 21300000, guid: a4fe765b015f6d64d9ca91ff1da1d50b, type: 3}
+    - {fileID: 21300000, guid: 8af191d25e8049f4d8124b404f33bc67, type: 3}
+    - {fileID: 21300000, guid: 7b1067c593e1d0f4887d8c5da3ea04fd, type: 3}
+    - {fileID: 21300000, guid: 1cbc83f2f80960443ac3c1142e023ea3, type: 3}
+    - {fileID: 21300000, guid: c36903b5028c45b479ac440ec7bd14d8, type: 3}
+    - {fileID: 21300000, guid: 12176ab33de7eff498feb367e25e52b9, type: 3}
+    - {fileID: 21300000, guid: f62f8216d72c4674088919297df4f12b, type: 3}
+    - {fileID: 21300000, guid: 9425fe1b6b6eb8b459006dc005198110, type: 3}
+    - {fileID: 21300000, guid: 3c7c2bbfbca78364ba0301268e57c9f2, type: 3}
+    - {fileID: 21300000, guid: 75cfeaa92a8163f479e74bf17e2791a2, type: 3}
+    - {fileID: 21300000, guid: 0533e6eaa691a724aa0ac022af5b83a7, type: 3}
+    - {fileID: 21300000, guid: 1dac24a19fd614d498bc50947beed496, type: 3}
+    FrameDurations:
+    - 0.055
+    - 0.055
+    - 0.055
+    - 0.055
+    - 0.055
+    - 0.055
+    - 0.055
+    - 0.055
+    - 0.055
+    - 0.055
+    - 0.055
+    - 0.055
+    - 0.055
+    - 0.055
+    - 0.055
+    - 0.055
+    - 0.055
+    - 0.055
+    - 0.055
+    - 0.055
+    - 0.055
+    - 0.055
+    - 0.055
+    - 0.055
+  - Species: Skitter
+    StaticSprite: {fileID: 21300000, guid: 23726667ed0c0c1409d7eea1d469026f, type: 3}
+    AnimationFrames:
+    - {fileID: 21300000, guid: d9f2c4266dcec0c489e5ce2444fca43c, type: 3}
+    - {fileID: 21300000, guid: c2c9369e9ba8e8741ad2a9ee495cb8fe, type: 3}
+    - {fileID: 21300000, guid: dbc3070b922e1de4896ab89f323e9d98, type: 3}
+    - {fileID: 21300000, guid: 32c86be0ee0e9584e8c78339a7af9bbc, type: 3}
+    - {fileID: 21300000, guid: fb43612534850c14ea25dbd0001f67ad, type: 3}
+    - {fileID: 21300000, guid: 7809b7c8d9b601944999d115b9e3f1c5, type: 3}
+    - {fileID: 21300000, guid: 5ce45ee96c01e7e47a0bcbc7cb29946b, type: 3}
+    - {fileID: 21300000, guid: 1cec6b7bfebdcb74ebae80101d17e02d, type: 3}
+    - {fileID: 21300000, guid: b17e6e38b5de8c046a3589f596162894, type: 3}
+    - {fileID: 21300000, guid: 8e637105662ab3046ac2a6d8b2f1eef2, type: 3}
+    - {fileID: 21300000, guid: e60830ea56e918a48808a88dd4e912ae, type: 3}
+    - {fileID: 21300000, guid: e2fbfc8997238bb4192b64d8e37e8db6, type: 3}
+    - {fileID: 21300000, guid: 8b0f74eddba991d45a98d02990bc247c, type: 3}
+    - {fileID: 21300000, guid: 98e2db54e5b77d049b07fe72c4bfbfbd, type: 3}
+    - {fileID: 21300000, guid: d9928ea1787a99b42ac2e7f84c6c2749, type: 3}
+    - {fileID: 21300000, guid: f31b8ff7c962ba441b913894cd4c50f4, type: 3}
+    - {fileID: 21300000, guid: d6c8cf2edebe1764ab365e003442c019, type: 3}
+    - {fileID: 21300000, guid: 23724618831146149b8ebe024ae34088, type: 3}
+    - {fileID: 21300000, guid: bc859f54a474a7244af2c13246d9f3e6, type: 3}
+    - {fileID: 21300000, guid: ef8552ea0117fdb4a97e786e55ff1fa5, type: 3}
+    - {fileID: 21300000, guid: 112292eeaf205c24f85899aabb7c7b6e, type: 3}
+    - {fileID: 21300000, guid: e2688c335891874439d2f225e4ae5bc6, type: 3}
+    - {fileID: 21300000, guid: 4d274e383a5642a4c9a2fef58dad6819, type: 3}
+    - {fileID: 21300000, guid: b167b5a424941cb47980512c17fc7531, type: 3}
+    - {fileID: 21300000, guid: 9c772496cf02fbc4a9a119316fe786fc, type: 3}
+    - {fileID: 21300000, guid: 7848b2e3dd3ef0e4d878424f1398485c, type: 3}
+    FrameDurations:
+    - 0.055
+    - 0.055
+    - 0.055
+    - 0.055
+    - 0.055
+    - 0.055
+    - 0.055
+    - 0.055
+    - 0.055
+    - 0.055
+    - 0.055
+    - 0.055
+    - 0.055
+    - 0.055
+    - 0.055
+    - 0.055
+    - 0.055
+    - 0.055
+    - 0.055
+    - 0.055
+    - 0.055
+    - 0.055
+    - 0.055
+    - 0.055
+    - 0.055
+    - 0.055
+  - Species: Crawlet
+    StaticSprite: {fileID: 21300000, guid: 1e5233be80c28464b97d091210105110, type: 3}
+    AnimationFrames:
+    - {fileID: 21300000, guid: 3eb21f9c5f63e1849bbc4da91f258606, type: 3}
+    - {fileID: 21300000, guid: a1a51564947815a48ad16ebf2d14e6ec, type: 3}
+    - {fileID: 21300000, guid: 286878f693a420f44995bd2dd41a9e84, type: 3}
+    - {fileID: 21300000, guid: 74f3abd66ac61a34b9423e39533ed983, type: 3}
+    - {fileID: 21300000, guid: f4e35b2a7d9deb246a7e6f3f257afa2a, type: 3}
+    - {fileID: 21300000, guid: 360419c2e32ad9a4d95e9d50a79d6cc1, type: 3}
+    - {fileID: 21300000, guid: 2505a89b26a78c4418a120c65cecc6ae, type: 3}
+    - {fileID: 21300000, guid: 872f9878857dbc34a9526f961121fafd, type: 3}
+    - {fileID: 21300000, guid: 9e37bf5141f144845911f9c8481961a1, type: 3}
+    - {fileID: 21300000, guid: af98c5dccb6ecac44b297d48648b5b65, type: 3}
+    - {fileID: 21300000, guid: 0df489a0a4a5cbc4da2c07516c77c171, type: 3}
+    - {fileID: 21300000, guid: 1d9760882dbc13e41b7b101a2fedd6f9, type: 3}
+    - {fileID: 21300000, guid: 297e9089a2ec9434f9425a406e193dac, type: 3}
+    - {fileID: 21300000, guid: ee74538e1c34cab49872ffdb7e45686b, type: 3}
+    - {fileID: 21300000, guid: 7f482b4a1c4da3241b9c4a4e653b6219, type: 3}
+    - {fileID: 21300000, guid: f6c44b004c7ce5a43bc9b689d187d7eb, type: 3}
+    - {fileID: 21300000, guid: be155cc87f8844446985a1f0466efc5c, type: 3}
+    - {fileID: 21300000, guid: 3ce6b446b8789f34e97ecd853520f16b, type: 3}
+    - {fileID: 21300000, guid: 4771618fb8a695b47b6f6a190868b341, type: 3}
+    - {fileID: 21300000, guid: 2a7cb55545e422f46ba2e1e22b0de2e3, type: 3}
+    - {fileID: 21300000, guid: b91f484700040a64580cc3b1244e0dcd, type: 3}
+    - {fileID: 21300000, guid: e0ac1a2f598c6204eaf71626456b1811, type: 3}
+    - {fileID: 21300000, guid: 1be417fff2c0ac444ab39c0de8de482d, type: 3}
+    - {fileID: 21300000, guid: 36322a0ce86642e41a35701a056c3b15, type: 3}
+    - {fileID: 21300000, guid: ff7c00947c3d6ab429667a5e606a663c, type: 3}
+    FrameDurations:
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.055
+  - Species: Ashhound
+    StaticSprite: {fileID: 21300000, guid: 54c008193e5fdd3488da9159249967a8, type: 3}
+    AnimationFrames:
+    - {fileID: 21300000, guid: 47c852dee3e6ace4da0e119217df1ab0, type: 3}
+    - {fileID: 21300000, guid: 40f863e55503649489793c14a5e83c00, type: 3}
+    - {fileID: 21300000, guid: 112e69bf274df3547969824f95746d00, type: 3}
+    - {fileID: 21300000, guid: 7fcdfbba5fde3234091d88237b5811c1, type: 3}
+    - {fileID: 21300000, guid: ad3499e58ac4c2340b2576897b73a796, type: 3}
+    - {fileID: 21300000, guid: decb38994fd190945b7544b62a5d205e, type: 3}
+    - {fileID: 21300000, guid: 900b370eb23e5d242b8ffcf3a1c49659, type: 3}
+    - {fileID: 21300000, guid: 6273c9f1c0cd8f843894f01e20c6ad50, type: 3}
+    - {fileID: 21300000, guid: 5cdfe516f8e575e4fbb91f0a1a0100e0, type: 3}
+    - {fileID: 21300000, guid: c280855bb8094a44fa3bbbbc41a477c1, type: 3}
+    - {fileID: 21300000, guid: 4ea4fc609ec6bd143a58a1d7cc35faab, type: 3}
+    - {fileID: 21300000, guid: a5917b231fa7dd94fbb469aceb8e9af8, type: 3}
+    - {fileID: 21300000, guid: 2a64e2ef8b033cb4ab32cb0b9658fe74, type: 3}
+    - {fileID: 21300000, guid: 240c3547a5e2ca34cafea322a0d6bc9a, type: 3}
+    - {fileID: 21300000, guid: 818e43e5e47860d4b82155bd99af5130, type: 3}
+    - {fileID: 21300000, guid: dd63b6a99fe81314f859d7dfd0043e90, type: 3}
+    - {fileID: 21300000, guid: 93ebb8853498c804d9d71c1e1f398421, type: 3}
+    - {fileID: 21300000, guid: f009c03eae73787478b3049bb3e42543, type: 3}
+    - {fileID: 21300000, guid: 23a668bd5cef84146a4142a971dec588, type: 3}
+    - {fileID: 21300000, guid: c990bde3f5b43ca48bdb0ccabe5ace2a, type: 3}
+    - {fileID: 21300000, guid: 893b465347fcb4a4c9b25442e09fd2fd, type: 3}
+    - {fileID: 21300000, guid: 988ba46181af2c14e9ae853c5b61e5f3, type: 3}
+    - {fileID: 21300000, guid: dd50c8c9f39b7bd43b3616996ad6aa49, type: 3}
+    - {fileID: 21300000, guid: 22b4e5cef4ad11a48b399c011c2ba124, type: 3}
+    FrameDurations:
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+  - Species: Nightfang
+    StaticSprite: {fileID: 21300000, guid: 419c1ef327a593046aabea201cf8bb86, type: 3}
+    AnimationFrames:
+    - {fileID: 21300000, guid: aaeb15d5d0f499b4785a803732db20f9, type: 3}
+    - {fileID: 21300000, guid: d01e54e5417fa9f4ab7a95e20ff3ebc8, type: 3}
+    - {fileID: 21300000, guid: 3209053d6bc337e4eb933c7c5ac9afad, type: 3}
+    - {fileID: 21300000, guid: 379d0bce91688a0498dedcc8c6adc45f, type: 3}
+    - {fileID: 21300000, guid: 83f6eb48b30212242a1475a0bae65d1d, type: 3}
+    - {fileID: 21300000, guid: 603c233f7a7302549b8a5aaca095a635, type: 3}
+    - {fileID: 21300000, guid: 36c600b1c28e02740b8ae2c96eab2205, type: 3}
+    - {fileID: 21300000, guid: d30ff052a1a34764d9be4a6e17ad1c6c, type: 3}
+    - {fileID: 21300000, guid: 3c37fb8f50be1434d9878818fd29b6da, type: 3}
+    - {fileID: 21300000, guid: 9d220b73de9e2f5458dff90fe23d7031, type: 3}
+    - {fileID: 21300000, guid: 9ae0da98967d4a7428296d0cf903d01c, type: 3}
+    - {fileID: 21300000, guid: f9fe65f74d3fa4040a5e49a006c1a887, type: 3}
+    - {fileID: 21300000, guid: d8da379bd30c5544ea582c1b08de3d4c, type: 3}
+    - {fileID: 21300000, guid: 85cf57462506cc4419cbe7833ed86b5e, type: 3}
+    - {fileID: 21300000, guid: a0d12738b8afe314faaba094afbe2338, type: 3}
+    - {fileID: 21300000, guid: 66dfd734332a1844ca09f12d62f48940, type: 3}
+    - {fileID: 21300000, guid: 1a01a6406031df64e80cbd45221c0413, type: 3}
+    - {fileID: 21300000, guid: 41542c49dd3a48247b866d6ed5a5f850, type: 3}
+    - {fileID: 21300000, guid: 31cd36f57b568f6428b44e2b350b57f1, type: 3}
+    - {fileID: 21300000, guid: 4a584928c2c62f546b917a766e02eb1b, type: 3}
+    - {fileID: 21300000, guid: 6f875a0c864c0c64ea1fe1e94b6076f2, type: 3}
+    FrameDurations:
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+  - Species: Skyclaw
+    StaticSprite: {fileID: 21300000, guid: 9cb9fc70fad33664ba4a1b0e85ee9af1, type: 3}
+    AnimationFrames:
+    - {fileID: 21300000, guid: 7dbf620fe0cbcb44185a5212ce618c5a, type: 3}
+    - {fileID: 21300000, guid: a0b9fbdd4833bb8428f31744c02ba499, type: 3}
+    - {fileID: 21300000, guid: 0c4ce0f72b2e5114fa5b43162a418560, type: 3}
+    - {fileID: 21300000, guid: abee8d8e574a3dc478902c7254bea0f3, type: 3}
+    - {fileID: 21300000, guid: 1f2a679b367afc448b7cb2792960d6ed, type: 3}
+    - {fileID: 21300000, guid: 264ca2abd09866e44a702b2f8998b98f, type: 3}
+    - {fileID: 21300000, guid: 35e39263edaf476498924a99680e5a00, type: 3}
+    - {fileID: 21300000, guid: 08004103dda76e844858aa4f8868be9f, type: 3}
+    - {fileID: 21300000, guid: a9672a8871746554399c054c090440b6, type: 3}
+    - {fileID: 21300000, guid: 75b7d16a02832ea4085d3d09e6e95faa, type: 3}
+    - {fileID: 21300000, guid: 05ec89f62b7054342a5b1486c5cd59e9, type: 3}
+    - {fileID: 21300000, guid: 79472003e2942c64bbe441cc98967c6f, type: 3}
+    - {fileID: 21300000, guid: b0fe88aa4742f5749bd69e8ad5cb65f3, type: 3}
+    - {fileID: 21300000, guid: 149536ec26686aa4a849bf0ba5444a97, type: 3}
+    - {fileID: 21300000, guid: 678c9c6fd537d2c4ba30d03df1198841, type: 3}
+    - {fileID: 21300000, guid: 8e80297c1e86a3949a613b6eedb7329f, type: 3}
+    - {fileID: 21300000, guid: 379b15300b03e4047bed1cb1ffe2be1c, type: 3}
+    - {fileID: 21300000, guid: f216001ea57691b40946f8af544df2f2, type: 3}
+    - {fileID: 21300000, guid: f5b5a6de8fadcf44c8816ee894ecc7df, type: 3}
+    - {fileID: 21300000, guid: a23fe782c16020c46ac502a97fb6ad7c, type: 3}
+    FrameDurations:
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.055
+  - Species: Huggevodrel
+    StaticSprite: {fileID: 21300000, guid: 1c1ee1113f309824e87c766f73e103cd, type: 3}
+    AnimationFrames:
+    - {fileID: 21300000, guid: f628d184a9890524dbcd2aef2a164b89, type: 3}
+    - {fileID: 21300000, guid: 0abda1906d1e433468a1a28a2aa3ff89, type: 3}
+    - {fileID: 21300000, guid: d2882f0ec6c54a2489ce89853270686a, type: 3}
+    - {fileID: 21300000, guid: f112e699eb0a89e4293886c08bfaac64, type: 3}
+    - {fileID: 21300000, guid: 48abb9c38fb64f14d9bb72facd85a8e8, type: 3}
+    - {fileID: 21300000, guid: 81e3e36f07f9d2145b47e64ba020fa80, type: 3}
+    - {fileID: 21300000, guid: 8806544f68666dc4bb73d895153f61cc, type: 3}
+    - {fileID: 21300000, guid: 0018f143e8a43ac4ebd6950f5434f720, type: 3}
+    - {fileID: 21300000, guid: f94370626bc18434aa23671632901954, type: 3}
+    - {fileID: 21300000, guid: 38d81c60264be73458c051afe94e3581, type: 3}
+    - {fileID: 21300000, guid: d2a194ee5d394ca41a2abbfdd354db31, type: 3}
+    - {fileID: 21300000, guid: 47037baa23f11ef41b5bbfea99a1bcb5, type: 3}
+    - {fileID: 21300000, guid: 1d002020ada1cd9458a899427c5505a7, type: 3}
+    - {fileID: 21300000, guid: 169d2827c4747664e8e216ad38fdd61c, type: 3}
+    - {fileID: 21300000, guid: e8816fe55728cd84897a6074a710f209, type: 3}
+    - {fileID: 21300000, guid: e0e945890865c55488d11e801b52fa3a, type: 3}
+    - {fileID: 21300000, guid: 2c264750d21071b4a9e8b60c39343df6, type: 3}
+    - {fileID: 21300000, guid: c58fd74a18018ae46b93f02e5801772a, type: 3}
+    - {fileID: 21300000, guid: a0bf08597851b2b40bb2996ce2f765e8, type: 3}
+    - {fileID: 21300000, guid: c213c290323f8a5479c797c36eba85ff, type: 3}
+    - {fileID: 21300000, guid: 4e5ff07e5ca72a54593bef573046d6c5, type: 3}
+    - {fileID: 21300000, guid: 7f06189075d119f41959fe59ba12a5f4, type: 3}
+    - {fileID: 21300000, guid: 27e84a9bc554bba499692a58b77e95df, type: 3}
+    - {fileID: 21300000, guid: 9809e0353808ab449886235047d21734, type: 3}
+    - {fileID: 21300000, guid: 73c3527f1e791f94481fb6be628201f9, type: 3}
+    - {fileID: 21300000, guid: 5b1dfa9dd822d3449b1e895817fad98c, type: 3}
+    - {fileID: 21300000, guid: a98614263cd8e6a4b9c7bbba23b69db6, type: 3}
+    - {fileID: 21300000, guid: 153f6252d054a9f408954aeed2d1a250, type: 3}
+    - {fileID: 21300000, guid: 67dfb362a37b3c44285333bdb138fdd6, type: 3}
+    FrameDurations:
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+  - Species: MonolithKing
+    StaticSprite: {fileID: 21300000, guid: 37caa41df09a68a4a82d8822fbd44317, type: 3}
+    AnimationFrames:
+    - {fileID: 21300000, guid: 6ebbc7f0dd30f084498fe768addc20ae, type: 3}
+    - {fileID: 21300000, guid: 23967d43eb964e642b6ee231f882f566, type: 3}
+    - {fileID: 21300000, guid: 132fd7ec17f396242a7d68bd7e4a72ee, type: 3}
+    - {fileID: 21300000, guid: 2aaa34797c9fb1c419833a3d45adacda, type: 3}
+    - {fileID: 21300000, guid: 555b89f20f3cdd34192ae06642fe4339, type: 3}
+    - {fileID: 21300000, guid: c326fbd4fbdda0045915397f36db8874, type: 3}
+    - {fileID: 21300000, guid: 4ddd400c785152f429d57a83ac0599f8, type: 3}
+    - {fileID: 21300000, guid: 32485502a6f9b154bbc294cf67579ef0, type: 3}
+    - {fileID: 21300000, guid: 91d83598a3c849844887c5bcf922b881, type: 3}
+    - {fileID: 21300000, guid: cadae8b1a126803499aedb430c7a6132, type: 3}
+    - {fileID: 21300000, guid: 62e557a88f2fd884d9f2f461f2b23c1c, type: 3}
+    - {fileID: 21300000, guid: 836de2af5920335468b33ec65928b6da, type: 3}
+    - {fileID: 21300000, guid: e150f95a5f2e9b34d8dadd0d4ef8784b, type: 3}
+    - {fileID: 21300000, guid: dbc9a959787198246984e91a7190f587, type: 3}
+    - {fileID: 21300000, guid: b64a53bbb050b8748b10a03248a47a71, type: 3}
+    - {fileID: 21300000, guid: c32d28e4cd45532499e8a8461b85a18d, type: 3}
+    - {fileID: 21300000, guid: 81f75fd2ad72822419ac289669af2ff6, type: 3}
+    - {fileID: 21300000, guid: 4a0928b1fa1b16c43988134511eec96b, type: 3}
+    - {fileID: 21300000, guid: 132772efed36b6240af2dcda15e2ee54, type: 3}
+    - {fileID: 21300000, guid: 9b93faf7852aa0c4084f07e1bdf0bbf2, type: 3}
+    - {fileID: 21300000, guid: 42b7da69f8103344da17567b8338446c, type: 3}
+    - {fileID: 21300000, guid: ca3c0ae918bf58249a98d28c01b9d1c9, type: 3}
+    - {fileID: 21300000, guid: 6e6f50bfe93b0a048b00e5cccd9386c1, type: 3}
+    - {fileID: 21300000, guid: 8ea72aa7ea488d04db9448a7262dc7f0, type: 3}
+    - {fileID: 21300000, guid: 17a6e51b78e385340afdd2419e407a86, type: 3}
+    - {fileID: 21300000, guid: 0b94bcaddf2c5c24d83f598a7a7e973c, type: 3}
+    - {fileID: 21300000, guid: cf88574ba4f35aa469d7dbadfb3e6456, type: 3}
+    FrameDurations:
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.055
+  - Species: Gloomborne
+    StaticSprite: {fileID: 21300000, guid: afeade80bec535f46a872a4d597f669e, type: 3}
+    AnimationFrames:
+    - {fileID: 21300000, guid: d98efd0268a2c464bb032530184426ef, type: 3}
+    - {fileID: 21300000, guid: ce60c63daa7699c41984af21ae959355, type: 3}
+    - {fileID: 21300000, guid: 3ba62ede3aef7164bb0b03607cb5dc13, type: 3}
+    - {fileID: 21300000, guid: 5d4d11d9e07fc0a4d928fa36f2f993f7, type: 3}
+    - {fileID: 21300000, guid: 32b874f7eded36248b4abe0a4325471f, type: 3}
+    - {fileID: 21300000, guid: abbbeb81566ed83469c67870f9509794, type: 3}
+    - {fileID: 21300000, guid: f327baabefd3ae940a478ff38e5aee8d, type: 3}
+    - {fileID: 21300000, guid: 14f175e3c05eeb843a270e0316b5cfb2, type: 3}
+    - {fileID: 21300000, guid: fe5c9dbc228d90a44a9757b366b644c4, type: 3}
+    - {fileID: 21300000, guid: 6dc861dd6a2b31a40bfb99c4c5efa2dc, type: 3}
+    - {fileID: 21300000, guid: 010110121a828064e9f41c9b85077c87, type: 3}
+    - {fileID: 21300000, guid: b172f911c2ad424448b61748322ce272, type: 3}
+    - {fileID: 21300000, guid: 8b824827a9195ee4b943b39f551c4b11, type: 3}
+    - {fileID: 21300000, guid: 409aed1705a1a3049bea615848f2d533, type: 3}
+    - {fileID: 21300000, guid: 03340e9e3bdfdbc4cbe2c937398d0ff8, type: 3}
+    - {fileID: 21300000, guid: a524f7a80a648374cbb549708a2e7ff1, type: 3}
+    - {fileID: 21300000, guid: e2349960d7e70e24da0849104e5da19b, type: 3}
+    - {fileID: 21300000, guid: 8c93e7b1ac144e3478f078056283fcfe, type: 3}
+    - {fileID: 21300000, guid: fcf987c92e52352458336dd83b7b2437, type: 3}
+    - {fileID: 21300000, guid: 1662a3c29f238f5418c85cd54ea09038, type: 3}
+    - {fileID: 21300000, guid: feb990e9d20d4cc4f9669f2a1e1ad4e6, type: 3}
+    - {fileID: 21300000, guid: 3d649cc9d1934844aa14646b515293b3, type: 3}
+    - {fileID: 21300000, guid: 1947deef14557ba4d9a5fbae14f3288a, type: 3}
+    - {fileID: 21300000, guid: 602f254c1e3e5cb49b8a5efb57b6cd40, type: 3}
+    - {fileID: 21300000, guid: c27351a5e59e9c148948c7f9d3ce0ce3, type: 3}
+    - {fileID: 21300000, guid: e185874db661ad648ac56c6b1486a49a, type: 3}
+    - {fileID: 21300000, guid: 263fa00804852f34c890a8af0c7c71ce, type: 3}
+    - {fileID: 21300000, guid: c4521fbd836898241804961776b7b83d, type: 3}
+    - {fileID: 21300000, guid: 7218bd45bb77f35498cdd498afd5636e, type: 3}
+    - {fileID: 21300000, guid: bc9b889139b1df14394c4e15c1d80e54, type: 3}
+    FrameDurations:
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.055
+  - Species: Starshifter
+    StaticSprite: {fileID: 21300000, guid: a27c76782ddbd9b468f009764db59751, type: 3}
+    AnimationFrames:
+    - {fileID: 21300000, guid: da06d30dbef8f3c46adbd164d2a83fb0, type: 3}
+    - {fileID: 21300000, guid: 58958fc19ab54394c806345c376feb81, type: 3}
+    - {fileID: 21300000, guid: 1f37f697e93cd5a4fb74cd4de5f441c8, type: 3}
+    - {fileID: 21300000, guid: d498c329cea0efb4fb4130ca80e7f4db, type: 3}
+    - {fileID: 21300000, guid: 123653dd1c3dc894e89cdfa04a776980, type: 3}
+    - {fileID: 21300000, guid: 0fbaf405711865f4d95c9cb8f338dda1, type: 3}
+    - {fileID: 21300000, guid: 2caffaada9da9b347b0a502035c5fca7, type: 3}
+    - {fileID: 21300000, guid: e22ba1aadb9aba74d8049992250ffc28, type: 3}
+    - {fileID: 21300000, guid: b7148f44ae2006f42b3e4e8165d423e9, type: 3}
+    - {fileID: 21300000, guid: 122825ee330e72c4d9af51a106a92adb, type: 3}
+    - {fileID: 21300000, guid: ac90cbe323f247a438ebd0ebf2238cfc, type: 3}
+    - {fileID: 21300000, guid: cf58eb02d426e5f43a42e2b349d3875b, type: 3}
+    - {fileID: 21300000, guid: 28103c7abcb97ca489517a9fbbc0bbae, type: 3}
+    - {fileID: 21300000, guid: 8cc52f3cd2dca4d4b9947c8cdc537291, type: 3}
+    - {fileID: 21300000, guid: f7ad3ee1ea16b3d4a98192060173ca2a, type: 3}
+    - {fileID: 21300000, guid: dc40f59ee84b03e489ce80cb7af1a2c6, type: 3}
+    - {fileID: 21300000, guid: 487555837132b9a488343bf597ebf38e, type: 3}
+    - {fileID: 21300000, guid: 6a79eaf06e4e9674495a748bc8ba4a6f, type: 3}
+    - {fileID: 21300000, guid: 12e6262a61ecc11478a182a6cdec6c43, type: 3}
+    - {fileID: 21300000, guid: 9eca3a8cc7e3a0e41bba0cc60daa8c57, type: 3}
+    - {fileID: 21300000, guid: 86e548e8032d9b8409f5a1648f5f7f0c, type: 3}
+    - {fileID: 21300000, guid: 92d712f0f98392b4897205d2c8330a1a, type: 3}
+    - {fileID: 21300000, guid: 42fd6f436fcf7624ab42befd41e95516, type: 3}
+    - {fileID: 21300000, guid: daae3ea309fcd7f4aa2189260b07b0d4, type: 3}
+    - {fileID: 21300000, guid: 95aa5c00537993a4cb0b84a923c65065, type: 3}
+    - {fileID: 21300000, guid: c7e468702561ad942a41d1e04d30043a, type: 3}
+    - {fileID: 21300000, guid: b76e552a98d460644b87bb79b09efe9d, type: 3}
+    - {fileID: 21300000, guid: a7c7cf257f60bdf46ae42d16b504bcf1, type: 3}
+    - {fileID: 21300000, guid: d1468866bf2fe1b46bb075e187a7b144, type: 3}
+    - {fileID: 21300000, guid: 0be82df5fcdda7843944675c26792845, type: 3}
+    FrameDurations:
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.055
+  - Species: Dreadwing
+    StaticSprite: {fileID: 21300000, guid: 32c475f73d7e70f4384e26938a0d49d5, type: 3}
+    AnimationFrames:
+    - {fileID: 21300000, guid: d7fe820e6842bf54cacf225cf88fe8f4, type: 3}
+    - {fileID: 21300000, guid: 63c6ed30ba0f81648b9b9cc7d32b774c, type: 3}
+    - {fileID: 21300000, guid: 9eec9434c7e6bba43b19787f8fb0446b, type: 3}
+    - {fileID: 21300000, guid: 67d750c4e57aaf7448abb4a0a5d4be83, type: 3}
+    - {fileID: 21300000, guid: 0afe78accb7168a48aa529ac25a90c24, type: 3}
+    - {fileID: 21300000, guid: c641fb362171ba548bfd0876d975c36b, type: 3}
+    - {fileID: 21300000, guid: 70c30eadb593cbd48bd472f5988eec08, type: 3}
+    - {fileID: 21300000, guid: 7a4249a5f6bb4d7488a04b24042d006d, type: 3}
+    - {fileID: 21300000, guid: 8fc76da2e6148534e96766fe89329c7b, type: 3}
+    - {fileID: 21300000, guid: 05dfbced1cacf534bb1252651e956e37, type: 3}
+    - {fileID: 21300000, guid: fb0808d73366b13429043c971194df66, type: 3}
+    - {fileID: 21300000, guid: 0c1416b1c5d66dc47b6b93799107db27, type: 3}
+    - {fileID: 21300000, guid: ad9b323e708e7314fb2fb85088e2fef6, type: 3}
+    - {fileID: 21300000, guid: cfb701128e511874890cc3007e29853a, type: 3}
+    - {fileID: 21300000, guid: db5b99d45d43b954eaeaf2348a04cb92, type: 3}
+    - {fileID: 21300000, guid: d247591d8d46d1a43b913fe5733ee464, type: 3}
+    - {fileID: 21300000, guid: 05546e45de4c5ee448a1c1af0518db1f, type: 3}
+    - {fileID: 21300000, guid: 68a4f12e53d2a1048b70a7aae6a9e82b, type: 3}
+    - {fileID: 21300000, guid: a15a3061a9f79c2469924f616982859a, type: 3}
+    - {fileID: 21300000, guid: e4b4072bc5e37c94abf65c54bee6d4dc, type: 3}
+    - {fileID: 21300000, guid: e5f7f141435f78047a4846d4a9967cad, type: 3}
+    - {fileID: 21300000, guid: 447f6cd90ca12254d803e5a0bbe5cfe3, type: 3}
+    - {fileID: 21300000, guid: 31385f51efd47e145a96b2594aaf379c, type: 3}
+    - {fileID: 21300000, guid: 97c538a5ab8dc0a4a8b9c8e7b6dde427, type: 3}
+    - {fileID: 21300000, guid: c5d561c0f6927b14cb98314dd6683043, type: 3}
+    - {fileID: 21300000, guid: ffa8f4eae44b93a45b4a1ebf358c3e2c, type: 3}
+    - {fileID: 21300000, guid: b0dd28e4caa4ea24a86d914d4e8665c0, type: 3}
+    - {fileID: 21300000, guid: 472b60305eda0ab45b296b9c2ed00b1a, type: 3}
+    - {fileID: 21300000, guid: 8ffc04c08f2d4f54098ecf62116599e7, type: 3}
+    - {fileID: 21300000, guid: eba461d6a5da981419c5a7c7f82da1e2, type: 3}
+    - {fileID: 21300000, guid: 8abcb7bbee10ba04b86972dfe43ad38f, type: 3}
+    - {fileID: 21300000, guid: f2a977ed95cea08428ce3f64b819b313, type: 3}
+    - {fileID: 21300000, guid: 8be13d8750810c045a480ee8ab889384, type: 3}
+    - {fileID: 21300000, guid: 193d517aa1d440f4c99d6f9c20ac323b, type: 3}
+    - {fileID: 21300000, guid: 80279dd8641cb274792835c4030433cc, type: 3}
+    - {fileID: 21300000, guid: 266b1a945ea01074ead59ac0dc3c031e, type: 3}
+    FrameDurations:
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.11
+    - 0.055
+  - Species: VortexPrime
+    StaticSprite: {fileID: 21300000, guid: f0d367f16b510714aa7a08ff29e567b0, type: 3}
+    AnimationFrames:
+    - {fileID: 21300000, guid: efc661e8fa9a5854b984709d9f5a9f06, type: 3}
+    - {fileID: 21300000, guid: 50e3da15f4398c040aa918b21a00b2db, type: 3}
+    - {fileID: 21300000, guid: 8654c2f0e8fdb5c46a8a1875476b6f3b, type: 3}
+    - {fileID: 21300000, guid: 5dd5dd86b77fefa45a4d4e20b4b8e6ad, type: 3}
+    - {fileID: 21300000, guid: e1ca60e5a7f796448a41a26df678d876, type: 3}
+    - {fileID: 21300000, guid: cc935f674f31f604d951a489013012ef, type: 3}
+    - {fileID: 21300000, guid: 81195bbdc00a4a2478808d3109da0adb, type: 3}
+    - {fileID: 21300000, guid: c8f00f36c09263e4bbc43c6af1ea71ae, type: 3}
+    - {fileID: 21300000, guid: ac64adc88d8feb34986f31f8c649be89, type: 3}
+    - {fileID: 21300000, guid: a49ba127d2f844b419cdd233a3048eca, type: 3}
+    - {fileID: 21300000, guid: d125fadf4310850479599b59261acb6b, type: 3}
+    - {fileID: 21300000, guid: 5f8dc0ad91e194b49ab7c50b13c97e9b, type: 3}
+    - {fileID: 21300000, guid: 2bd560a0f9a198141a1e297443de4d94, type: 3}
+    - {fileID: 21300000, guid: f08dccd0ecd73f845b670242c9a6853a, type: 3}
+    - {fileID: 21300000, guid: 941a772963c0d0f459360efab64bd937, type: 3}
+    - {fileID: 21300000, guid: 6bcd6db7958e79d4e90e6a86c5027aeb, type: 3}
+    - {fileID: 21300000, guid: b8b5658d029a8fb4197c8a3b1c011511, type: 3}
+    - {fileID: 21300000, guid: 35f87c1b2c340124da84f376a6cf3d48, type: 3}
+    - {fileID: 21300000, guid: 942d35d2b0d756a42a0b061e25b59c56, type: 3}
+    - {fileID: 21300000, guid: 95050f82f8acca64aaf8c41a128e3d71, type: 3}
+    - {fileID: 21300000, guid: be2f31808bb50204391be77faaa77835, type: 3}
+    - {fileID: 21300000, guid: 14263ddd7da13b94e8f42740880b8a02, type: 3}
+    - {fileID: 21300000, guid: be234ff1145ea6440aebe108764a05f7, type: 3}
+    - {fileID: 21300000, guid: a1755f3cbdfb78e4e9b12398012c7d5d, type: 3}
+    - {fileID: 21300000, guid: 7d829ae0db306a44aa9c4af42c26bf6d, type: 3}
+    - {fileID: 21300000, guid: 9358c89a594d939458db91c07742e175, type: 3}
+    - {fileID: 21300000, guid: 811d839a2ddf0b345bba5323da38bbf6, type: 3}
+    - {fileID: 21300000, guid: 4008020fa366bcb4fb9174243c99fd8a, type: 3}
+    - {fileID: 21300000, guid: 03f9dd0f7eaa93840bb90eb58697185e, type: 3}
+    - {fileID: 21300000, guid: 8f81b0cb1bc3f3a4ca5e6e714be67b55, type: 3}
+    FrameDurations:
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165
+    - 0.165

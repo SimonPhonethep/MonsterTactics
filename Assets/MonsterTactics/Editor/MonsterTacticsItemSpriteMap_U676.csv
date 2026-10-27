@@ -1,0 +1,47 @@
+﻿MonsterTacticsKind,InGameName,MonsterSpriteSlug,WhyThisArt
+AttackFang,Attack Fang,razor-fang,Component: iconic Monster-style counterpart
+MysticSpoon,Mystic Spoon,twisted-spoon,Component: iconic Monster-style counterpart
+SwiftFeather,Swift Feather,pretty-wing,Component: iconic Monster-style counterpart
+IronPlate,Iron Plate,iron-plate,Component: iconic Monster-style counterpart
+VitalSeed,Vital Seed,miracle-seed,Component: iconic Monster-style counterpart
+ManaCrystal,Mana Crystal,dawn-stone,Component: iconic Monster-style counterpart
+ResistCloak,Resist Cloak,reaper-cloth,Component: iconic Monster-style counterpart
+LuckyCharm,Lucky Charm,amulet-coin,Component: iconic Monster-style counterpart
+Craft00,Twin Fangs,razor-claw,Twin prongs/claws are closer to fangs than the previous item art
+Craft01,Spellblade,rusted-sword,An actual sword silhouette instead of an Expert Belt
+Craft02,Quick Claw,quick-claw,Exact same named real Monster item
+Craft03,Iron Fang,deep-sea-tooth,Actual tooth silhouette rather than a Muscle Band
+Craft04,Life Drinker,big-root,Life-stealing root theme matches draining passive
+Craft05,Focused Strike,scope-lens,Precision aiming item
+Craft06,Dragon Fang,dragon-fang,Exact same named Monster item
+Craft07,Precision Edge,sharp-beak,A distinct pointed cutting edge
+Craft08,Wise Staff,reveal-glass,An ornate handheld looking glass reads as a magical focus
+Craft09,Mystic Tempo,metronome,Visual metronome evokes tempo and timing
+Craft10,Arcane Guard,light-clay,Used to extend magical protective screens
+Craft11,Blight Staff,poison-barb,Blight-themed poisonous weapon tip
+Craft12,Blue Spell,mystic-water,Blue arcane pendant
+Craft13,Veiled Wand,spell-tag,A magical talisman with a veiled feel
+Craft14,Critical Magic,life-orb,Glowing magical orb conveys empowered spells
+Craft15,Windstorm,flying-gem,Flying elemental gem represents wind
+Craft16,Swift Guard,protective-pads,Physical guards and pads
+Craft17,Bloom Rush,rose-incense,Flower and bloom themed item
+Craft18,Feather Flow,swift-wing,Feather icon matching the name
+Craft19,Zephyr Cloak,choice-scarf,A flowing wearable cloth close to a cloak
+Craft20,Rapid Precision,wide-lens,Precision focusing lens
+Craft21,Stonewall,hard-stone,Real stone icon for the wall theme
+Craft22,Ironbark,root-fossil,Woody fossil roots for iron-bark armor
+Craft23,Defense Engine,assault-vest,Actual body armor
+Craft24,Balanced Shield,rusted-shield,Actual shield silhouette
+Craft25,Spiked Plate,rocky-helmet,Spiked defensive armor
+Craft26,Giant Heart,heart-scale,Heart-shaped item instead of Leftovers
+Craft27,Life Font,sitrus-berry,Healing berry for periodic life recovery
+Craft28,Protected Growth,grassy-seed,Defensive growth-themed seed
+Craft29,Lucky Bloom,flower-sweet,Flower-shaped sweet for lucky bloom
+Craft30,Quickcast,power-herb,A herb that enables immediate moves in Monster
+Craft31,Mind Shield,safety-goggles,Protective eyewear guarding the head
+Craft32,Mana Roulette,ring-target,Circular target resembling a roulette wheel
+Craft33,Mystic Barrier,eviolite,Protective mystical stone
+Craft34,Reflex Ward,focus-sash,A protective reactive sash
+Craft35,Critical Strike,dire-hit,Real Monster crit-boosting item
+ItemRemover,Item Remover,shed-shell,Shed shell represents removing held items
+Reforger,Reforger,ability-capsule,Ability changing capsule represents reforging

@@ -1,0 +1,58 @@
+MONSTERTACTICS U6.11-Z — STORMLYNX ONLY (INSTALL OVER U6.10.6)
+======================================================
+
+Scope
+-----
+Adds exactly ONE new Monster family: Stormlynx (#807), 5-gold Electric Assassin.
+Does NOT add Torchic, Pawmi, Eon Duo, or any other U6.11 proposal.
+Uses the active Content Catalog/shop pool, existing 2.5D sprite animation,
+combat rule and VFX pipelines. No new origin/elemental synergy is introduced.
+
+Plasma Fists
+------------
+Mana: 70. Dashes to an available adjacent hex beside the current target
+(safe fallback: stand still if all adjacent hexes are occupied). Schedules a
+primary PHYSICAL attack at the standard ability windup. Then up to two
+OTHER living enemies within 2 hexes of the original target receive MAGIC
+lightning damage, closest first. Never hits an enemy twice in the chain.
+  1*: 240% AD primary; 125 + 65% AP per secondary
+  2*: 360% AD primary; 225 + 65% AP per secondary
+  3*: 650% AD primary; 450 + 65% AP per secondary
+
+Only one enemy left: the full primary Physical Damage hits normally, and no
+secondary lightning is applied. No chaining beyond the first hop.
+No other enemies within 2 hexes: same behavior. Primary target faints from
+hit: the chain can still arc from its last occupied hex to other enemies.
+If the primary target dies before the cast resolves, the standard game
+pending-hit cancellation applies (the whole cast misses).
+
+INSTALL — from U6.10.6
+---------------------
+1. Close Play Mode. Back up your project. Extract this ZIP into Unity project
+   ROOT (the folder containing Assets/), merging Assets/MonsterTactics.
+2. Wait for Unity to compile, then run:
+   MonsterTactics > U6.11 Stormlynx > 1. Download Sprite + Install Stormlynx
+   Internet required once for static MonsterAPI sprite #807.
+3. Run:
+   MonsterTactics > U6.11 Stormlynx > 2. Verify Sprite + Ability + Chain Rules
+4. Restart Play Mode, open shop at level with 5-cost odds, test Stormlynx.
+5. Optional genuine animation import (when available):
+   MonsterTactics > U6.10.3 > 1. Download Genuine Animation Frames + Install
+   (Windows PowerShell required); fallback visual motion works with one frame.
+
+SCALE/HP BAR
+------------
+Stormlynx uses the existing 0.90 new-family scale defaults and HP-bar visible
+bounds builder. Existing boss and roster scales are unchanged.
+
+RECOVERY
+--------
+Use MonsterTactics > U6.11 Stormlynx > 3. Disable Stormlynx (Keep Art).
+A before-install Content Catalog copy is retained in
+Assets/MonsterTactics/Art/U611StormlynxBackup. No scene or prefab edits.
+
+Verification limitation
+-----------------------
+Source/static QA and ZIP archive validation are possible offline; real Unity
+6.6 compilation, downloads, combat play and shop-roll testing must be done in
+Editor. The patch does not include a downloaded sprite image.

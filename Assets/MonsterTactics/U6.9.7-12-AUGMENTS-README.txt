@@ -1,0 +1,55 @@
+MonsterTactics U6.9.7 — 12 approved augments
+=======================================
+Base: U6.9.6 Supply Drop Augments + U6.9.6a CS0117 enum fix + U6.9.6b Damage Amp inspector patch.
+
+INSTALLATION (PATCH)
+1. Back up your Unity project and exit Play Mode.
+2. Extract this PATCH archive to the Unity project ROOT (the folder containing Assets).
+   Do not drag only the C# files; preserve their exact subfolders and .meta files.
+3. Wait for Unity to finish compiling; fix any Console errors before continuing.
+4. Menu: MonsterTactics > Augments > U6.9.7 Install 12 Approved Augments.
+5. Menu: MonsterTactics > Tools > U6.9.7 Verify 12 Approved Augments.
+6. Enter Play Mode and verify each effect in actual PvP/PvE combat and planning phases.
+
+INSTALLATION (FULL)
+The FULL archive has a top-level MonsterTactics folder intended to go INSIDE the Unity project's
+Assets folder. Back up first; merge into Assets and overwrite matching files.
+
+New augment definitions are CREATED by the Editor installer, not supplied as prewritten
+.asset files. The installer is idempotent: rerunning it preserves any existing per-asset
+Inspector changes, catalog references, enable toggles, custom description/art, and weights.
+Newly created approved augment definitions start ENABLED. Disable individually as desired.
+
+ROOKIE (5)
+Weakness Policy         First drop below 50% HP: +12% AD and +12 AP rest of combat (once/unit).
+Creature Station Visit       2 lowest-max-HP teammates gain a 12%-of-max-HP shield for 8 seconds.
+Training Grounds        1-star Monster +12% Attack Speed and +100 HP.
+Field Supplies          +4 Gold and 1 physical Component Anvil (choose 1 of 4).
+Type Research           Each distinct ACTIVE elemental Type synergy grants team +3 Armor/MR,
+                        capped at +12 each. Origin traits don't count.
+
+ACE (3)
+Rare Candy Cache        +8 XP immediately. NEXT 3 player level-ups grant +2 Gold each;
+                        levels caused by the initial XP don't count.
+Second Wind             On first drop below 40% HP, heal 12% max HP over 3 sec (once/unit/fight),
+                        healing is affected by Wounds and overtime healing reduction.
+Technical Machine       Units holding at least one completed item: +14% AS and +10 AP.
+
+CHAMPION (4)
+Master Ball Delivery    1 random 1-star 5-cost Monster, +12 Gold, 1 physical Complete Item Anvil.
+                        5-cost reward remains pending while Monster bench is full.
+Final Form Fury         2-star +15% Damage Amp/+150 HP; 3-star +30% Damage Amp/+350 HP.
+Rainbow League          >=5 different fielded elemental types: team +18% Damage Amp/+15% HP.
+Elite Four Sponsorship  +5 Gold immediately; every 4 PvP victories AFTER choosing it drops
+                        1 physical Completed Item Anvil. PvE victories do not count.
+
+Excluded per user's selection: Baton Pass, Expedition Contract, Revival Herb.
+
+IMPORTANT INTERACTION
+All physical anvils drop onto the board, must be picked up onto Monster bench,
+are opened by dragging to the shop/Sell area, and send selected item into Item Bench.
+Anvils remain on board when the 9-slot Monster reserve bench is full.
+
+Balances are initial design values, not playtested balance.
+Unity compilation and Play Mode verification must be run locally. Archive + source structural
+checks do NOT prove there are no Unity compile or gameplay issues.

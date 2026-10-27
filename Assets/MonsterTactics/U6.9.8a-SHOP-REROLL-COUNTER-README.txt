@@ -1,0 +1,21 @@
+MonsterTactics U6.9.8a — Shop Free Reroll Counter (UI only)
+=======================================================
+Install AFTER U6.9.8 (augment-card reroll counter) or on U6.9.7.
+Extract this ZIP into the Unity PROJECT ROOT (folder containing Assets),
+overwriting the two matching .cs files. Back up first; exit Play Mode.
+
+Behavior:
+- With 3 free SHOP rerolls, button: REROLL · FREE ×3
+- After using one: REROLL · FREE ×2, then FREE ×1
+- After they run out: REROLL · 2g (or your current modified shop reroll cost)
+- Free shop rerolls are automatically spent first, as in existing gameplay.
+- Augment card rerolls remain separate; their UI is unchanged by this patch.
+- Works in main Canvas HUD and legacy fallback shop HUD.
+- Canvas reroll button is tinted teal while free shop rerolls remain.
+
+No item/anvil/combat/augment logic modified. This is display-only.
+Existing shop grants (e.g. Safari Zone Explorer, Trainer's Allowance,
+Nuzlocke Discipline) use the same tracked reroll count.
+
+Verification: tested by static source assertions; Unity compilation and
+Play Mode functionality need verification in your editor.

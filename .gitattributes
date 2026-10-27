@@ -1,0 +1,13 @@
+# Line ending normalization for text assets
+*.cs text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.meta text eol=lf
+*.unity text eol=lf
+*.asset text eol=lf
+*.anim text eol=lf
+*.controller text eol=lf
+*.mat text eol=lf
+*.dae text eol=lf
+*.png binary
