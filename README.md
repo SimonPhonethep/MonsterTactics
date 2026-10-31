@@ -1,55 +1,54 @@
 # MonsterTactics
 
-**A 2.5D tactical auto-battler built with Unity 6 and C#.**
+**A 2.5D strategy auto-battler I'm building in Unity 6 with C#.**
 
-This is a portfolio-oriented copy of a personal strategy-game project, developed first as a React + TypeScript + Phaser prototype and subsequently rebuilt in Unity. It features automatic combat on a hex board, character progression, team synergies, abilities, game economy, items, and data-driven balance systems.
+MonsterTactics is a game where you build a team, place units on a hex board, and watch them fight automatically. Winning isn't just about picking strong units. Positioning, team synergies, items, and how you spend your gold all make a difference.
 
-> **Portfolio placeholder build.** All PNG art was replaced with **new, original, procedurally drawn temporary graphics**, and the four imported character model files were replaced with generated, non-rigged training avatars. Character names and code identifiers were systematically rebranded. **This package has not been imported, compiled, or play-tested inside Unity after the replacements.** Expect to retarget 3D animations, adjust sprites, and fix any resulting scene references before distributing a working game build.
+I started the project as a browser prototype using React, TypeScript, and Phaser, then rebuilt it in Unity to develop the combat and game systems in C#. This repository contains the Unity version.
 
-![Preview of generated character placeholders, not an actual gameplay screenshot](docs/placeholder_sprite_sheet.png)
+![Temporary character art used in this portfolio version](docs/placeholder_sprite_sheet.png)
 
-## Technologies
+*The image above shows placeholder art, not a screenshot of gameplay.*
 
-- Unity Editor **6000.6.6f1** (Unity 6), **C#**
-- Prior web prototype: React, TypeScript, Phaser (not included in this Unity export)
-- Custom gameplay architecture, editor tools, and sprite-frame animation
+## What I've built
 
-## Implemented systems in the source project
+- **Auto-battles on a hex grid:** Units find targets, move into range, attack, and use abilities without the player controlling every action.
+- **Team building:** Units have different roles and traits. Combining the right units activates bonuses, and collecting copies lets you upgrade them.
+- **Shop and economy:** Buy units, reroll the shop, level up, and manage gold between rounds. Shop odds change with player level.
+- **Items and augments:** Equip items, combine components, and choose bonuses that change how a team plays.
+- **Rounds and PvE:** Planning and combat phases, plus encounters against computer-controlled enemies.
+- **Visuals and feedback:** Sprite animations, ability effects, and UI for the board, shop, and unit information.
 
-- Automated hex-grid battles, target selection, combat stats, and ability effects
-- Character evolution / stars, traits, and unit-based team composition
-- Gold economy, leveling, probability-based shop, round progression
-- Equipment crafting, inventory, item bonuses, and loot
-- Augments, PvE encounters, balancing and content editing tools
-- 2D sprite animations, VFX, character and UI systems
+## A part I'm especially proud of: the balance editor
 
-## Opening in Unity
+I made a custom editor to make balancing easier. Instead of digging through combat code every time I want to adjust a unit, I can edit values like health, attack damage, armor, attack speed, and ability scaling through the editor.
 
-1. Extract the repository, keeping `Assets/`, `Packages/`, and `ProjectSettings/` in the same project root.
-2. In Unity Hub choose **Add project from disk** and select this root folder.
-3. Open with the matching Unity Editor version **6000.6.6f1** (or let Unity upgrade the project, keeping a backup).
-4. Open `Assets/Scenes/SampleScene.unity`, inspect Console errors, and resolve any broken 3D model/animation references before attempting the Play button.
-5. Review scripts and generated art before sharing a playable build. The original trainers' proprietary 3D rigs and animations are **not** bundled.
+The idea is to keep unit data separate from the C# systems that handle movement, targeting, and damage. It makes adding units and testing different balance ideas much easier.
 
-## Important limitations
+## Built with
 
-- The graphic replacements were performed **outside Unity**, so runtime behavior and exact on-screen appearance are **not verified**.
-- Sprite files keep their original dimensions and existing `.meta` files / GUIDs where possible; this is meant to preserve source references, not guarantee presentation accuracy.
-- Replaced 3D models are **static COLLADA training dummies** without the original armatures or clips; original trainer animation controllers may need rebuilding.
-- Some historical editor utilities may still expect specific imported rig configurations.
-- Names, display labels, source paths, and C# identifiers have been migrated automatically and may need manual code review.
-- Core artwork shown here consists of intentionally simple placeholders; replace with custom final art before releasing the game.
-- A public repository is not the same as an authorization or guarantee to publish every component. Review the code, dependencies, and all remaining licensing obligations before making it public.
+- **Unity 6** (`6000.6.6f1`)
+- **C#** for gameplay systems and editor tools
+- **React, TypeScript, and Phaser** for the original browser prototype (not included here)
 
-See [Portfolio conversion audit](docs/CONVERSION_AUDIT.md) for the full static validation notes.
+## Open the project
 
-## GitHub
+1. Download or clone the repository.
+2. In Unity Hub, choose **Add project from disk** and select the folder containing `Assets`, `Packages`, and `ProjectSettings`.
+3. Open the project with Unity **6000.6.6f1** if possible.
+4. Open `Assets/Scenes/SampleScene.unity`.
 
-Using GitHub Desktop: **File → Add local repository** → choose this project root → if necessary choose **Create a repository here** → commit → **Publish repository**. Keep it **private** until you have imported the project in Unity and manually checked it.
+**A note about this GitHub copy:** This is a portfolio version of my project, not a verified playable release. I replaced the original character artwork with temporary graphics and the imported 3D character models with static placeholders. Those replacements were made outside Unity, and I haven't tested this exported version in the editor afterward. Some animation, model, or scene references may need fixing before it runs correctly.
 
-**Project:** MonsterTactics — 2.5D Tactical Auto-Battler  
-**Topics:** `unity`, `csharp`, `hex-grid`, `auto-battler`, `game-development`, `procedural-placeholder-art`.
+The image above is a preview of the temporary assets, not an in-game screenshot.
 
-## Code and asset ownership
+## More details
 
-This export is provided as a private portfolio working copy. No blanket open-source license is granted by this package. Unity and other dependencies remain subject to their respective terms. See [art policy](docs/ASSET_POLICY.md).
+- [Portfolio conversion audit](docs/CONVERSION_AUDIT.md) — what was changed for this copy and what still needs checking
+- [Asset policy](docs/ASSET_POLICY.md) — notes on the included artwork and other assets
+
+## About this repository
+
+I'm sharing the source to show how I've approached game logic, combat calculations, team-building mechanics, and editor tooling. It is still a work in progress.
+
+No open-source license is included. Please don't assume the code or assets are licensed for reuse. Third-party dependencies remain subject to their own licenses.
